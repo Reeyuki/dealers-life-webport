@@ -1,0 +1,49 @@
+ManifestFileVersion: 0
+CRC: 30321230
+AssetBundleManifest:
+  AssetBundleInfos:
+    Info_0:
+      Name: items
+      Dependencies: {}
+    Info_1:
+      Name: avatars
+      Dependencies: {}
+    Info_2:
+      Name: customers
+      Dependencies: {}
+    Info_3:
+      Name: myhomehouses
+      Dependencies: {}
+    Info_4:
+      Name: employees
+      Dependencies: {}
+    Info_5:
+      Name: myhomebackgrounds
+      Dependencies: {}
+    Info_6:
+      Name: myhomevehicles
+      Dependencies: {}
+    Info_7:
+      Name: myhomegardens
+      Dependencies: {}
+    Info_8:
+      Name: encountercharacters
+      Dependencies: {}
+    Info_9:
+      Name: shops
+      Dependencies: {}
+    Info_10:
+      Name: money
+      Dependencies: {}
+    Info_11:
+      Name: endgamebackgrounds
+      Dependencies: {}
+    Info_12:
+      Name: holidaycontent
+      Dependencies: {}
+    Info_13:
+      Name: data.unity3d
+      Dependencies: {}
+    Info_14:
+      Name: itemconditionlayers
+      Dependencies: {}

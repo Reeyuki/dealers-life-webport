@@ -1,0 +1,25 @@
+ManifestFileVersion: 0
+CRC: 2801495058
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 90be5aa171a739f6b919458b5588ee5b
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 9e6ad29cbd2df8fbe1a15315db0e51ab
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+Assets:
+- Assets/editor default resources/assetbundlesresources/holidaycontent/easterlights_2.asset
+- Assets/editor default resources/assetbundlesresources/holidaycontent/easterlights_1.asset
+- Assets/editor default resources/assetbundlesresources/holidaycontent/easterlights_0.asset
+- Assets/editor default resources/assetbundlesresources/holidaycontent/easterholidaycontent_0.asset
+- Assets/editor default resources/assetbundlesresources/holidaycontent/easterlights.png
+- Assets/editor default resources/assetbundlesresources/holidaycontent/easterholidaycontent_2.asset
+- Assets/editor default resources/assetbundlesresources/holidaycontent/easterholidaycontent_1.asset
+- Assets/editor default resources/assetbundlesresources/holidaycontent/easterholidaycontent.png
+Dependencies: []

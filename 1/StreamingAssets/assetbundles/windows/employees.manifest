@@ -1,0 +1,44 @@
+ManifestFileVersion: 0
+CRC: 2246098296
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 8d729962a3c5e83491896cb2d8d1de72
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: cb3f6df5cbc4a2990c44c2787bc9553a
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+Assets:
+- Assets/Editor Default Resources/AssetBundlesResources/Employees/Analyst2.png
+- Assets/Editor Default Resources/AssetBundlesResources/Employees/Profiler2.png
+- Assets/Editor Default Resources/AssetBundlesResources/Employees/Analyst3.png
+- Assets/Editor Default Resources/AssetBundlesResources/Employees/Profiler3.png
+- Assets/Editor Default Resources/AssetBundlesResources/Employees/Analyst1.png
+- Assets/Editor Default Resources/AssetBundlesResources/Employees/Brainwasher2.png
+- Assets/Editor Default Resources/AssetBundlesResources/Employees/Advertiser3.png
+- Assets/Editor Default Resources/AssetBundlesResources/Employees/Advertiser1.png
+- Assets/Editor Default Resources/AssetBundlesResources/Employees/Brainwasher3.png
+- Assets/Editor Default Resources/AssetBundlesResources/Employees/LuckyGuy1.png
+- Assets/Editor Default Resources/AssetBundlesResources/Employees/Clerk2.png
+- Assets/Editor Default Resources/AssetBundlesResources/Employees/Forger2.png
+- Assets/Editor Default Resources/AssetBundlesResources/Employees/Expert1.png
+- Assets/Editor Default Resources/AssetBundlesResources/Employees/Expert2.png
+- Assets/Editor Default Resources/AssetBundlesResources/Employees/Restorer3.png
+- Assets/Editor Default Resources/AssetBundlesResources/Employees/Profiler1.png
+- Assets/Editor Default Resources/AssetBundlesResources/Employees/Brainwasher1.png
+- Assets/Editor Default Resources/AssetBundlesResources/Employees/Clerk3.png
+- Assets/Editor Default Resources/AssetBundlesResources/Employees/LuckyGuy2.png
+- Assets/Editor Default Resources/AssetBundlesResources/Employees/Advertiser2.png
+- Assets/Editor Default Resources/AssetBundlesResources/Employees/Forger1.png
+- Assets/Editor Default Resources/AssetBundlesResources/Employees/LuckyGuy3.png
+- Assets/Editor Default Resources/AssetBundlesResources/Employees/Clerk1.png
+- Assets/Editor Default Resources/AssetBundlesResources/Employees/Restorer2.png
+- Assets/Editor Default Resources/AssetBundlesResources/Employees/Restorer1.png
+- Assets/Editor Default Resources/AssetBundlesResources/Employees/Expert3.png
+- Assets/Editor Default Resources/AssetBundlesResources/Employees/Forger3.png
+Dependencies: []

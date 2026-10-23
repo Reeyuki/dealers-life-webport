@@ -1,0 +1,40 @@
+ManifestFileVersion: 0
+CRC: 3363127624
+AssetBundleManifest:
+  AssetBundleInfos:
+    Info_0:
+      Name: items
+      Dependencies: {}
+    Info_1:
+      Name: spritesheets
+      Dependencies: {}
+    Info_2:
+      Name: employees
+      Dependencies: {}
+    Info_3:
+      Name: money
+      Dependencies: {}
+    Info_4:
+      Name: recurrentcharacters
+      Dependencies: {}
+    Info_5:
+      Name: summerholidaycontent
+      Dependencies: {}
+    Info_6:
+      Name: shops
+      Dependencies: {}
+    Info_7:
+      Name: easterholidaycontent
+      Dependencies: {}
+    Info_8:
+      Name: conditionslayers
+      Dependencies: {}
+    Info_9:
+      Name: xmasholidaycontent
+      Dependencies: {}
+    Info_10:
+      Name: halloweenholidaycontent
+      Dependencies: {}
+    Info_11:
+      Name: genericwindows
+      Dependencies: {}

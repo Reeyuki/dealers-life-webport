@@ -1,0 +1,37 @@
+ManifestFileVersion: 0
+CRC: 1745846905
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 1f9f9feb815d54a6518eb10667ea7ec2
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 9e6ad29cbd2df8fbe1a15315db0e51ab
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+Assets:
+- Assets/editor default resources/assetbundlesresources/money/MoneyTier7.asset
+- Assets/editor default resources/assetbundlesresources/money/MoneyTier8.asset
+- Assets/editor default resources/assetbundlesresources/money/MoneyTier1.png
+- Assets/editor default resources/assetbundlesresources/money/MoneyTier5.png
+- Assets/editor default resources/assetbundlesresources/money/MoneyTier10.png
+- Assets/editor default resources/assetbundlesresources/money/MoneyTier1.asset
+- Assets/editor default resources/assetbundlesresources/money/MoneyTier9.png
+- Assets/editor default resources/assetbundlesresources/money/MoneyTier3.png
+- Assets/editor default resources/assetbundlesresources/money/MoneyTier7.png
+- Assets/editor default resources/assetbundlesresources/money/MoneyTier4.png
+- Assets/editor default resources/assetbundlesresources/money/MoneyTier3.asset
+- Assets/editor default resources/assetbundlesresources/money/MoneyTier2.png
+- Assets/editor default resources/assetbundlesresources/money/MoneyTier4.asset
+- Assets/editor default resources/assetbundlesresources/money/MoneyTier2.asset
+- Assets/editor default resources/assetbundlesresources/money/MoneyTier6.png
+- Assets/editor default resources/assetbundlesresources/money/MoneyTier6.asset
+- Assets/editor default resources/assetbundlesresources/money/MoneyTier9.asset
+- Assets/editor default resources/assetbundlesresources/money/MoneyTier10.asset
+- Assets/editor default resources/assetbundlesresources/money/MoneyTier8.png
+- Assets/editor default resources/assetbundlesresources/money/MoneyTier5.asset
+Dependencies: []

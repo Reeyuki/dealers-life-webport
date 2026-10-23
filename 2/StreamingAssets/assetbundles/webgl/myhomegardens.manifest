@@ -1,0 +1,56 @@
+ManifestFileVersion: 0
+CRC: 3687381563
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: dd413f894cdd9a387309730f75df96bc
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: c21d61fe394c58399df3c6fb5c7c99b3
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/editor default resources/images/myhome/gardens/myhome_garden50.asset
+- Assets/editor default resources/images/myhome/gardens/myhome_garden52.asset
+- Assets/editor default resources/images/myhome/gardens/myhome_garden12.asset
+- Assets/editor default resources/images/myhome/gardens/myhome_garden50.png
+- Assets/editor default resources/images/myhome/gardens/myhome_garden32.asset
+- Assets/editor default resources/images/myhome/gardens/myhome_garden22.asset
+- Assets/editor default resources/images/myhome/gardens/myhome_garden32.png
+- Assets/editor default resources/images/myhome/gardens/myhome_garden51.asset
+- Assets/editor default resources/images/myhome/gardens/myhome_garden31.asset
+- Assets/editor default resources/images/myhome/gardens/myhome_garden10.asset
+- Assets/editor default resources/images/myhome/gardens/myhome_garden21.png
+- Assets/editor default resources/images/myhome/gardens/myhome_garden30.asset
+- Assets/editor default resources/images/myhome/gardens/myhome_garden60.png
+- Assets/editor default resources/images/myhome/gardens/myhome_garden62.asset
+- Assets/editor default resources/images/myhome/gardens/myhome_garden11.asset
+- Assets/editor default resources/images/myhome/gardens/myhome_garden22.png
+- Assets/editor default resources/images/myhome/gardens/myhome_garden31.png
+- Assets/editor default resources/images/myhome/gardens/myhome_garden40.png
+- Assets/editor default resources/images/myhome/gardens/myhome_garden42.asset
+- Assets/editor default resources/images/myhome/gardens/myhome_garden42.png
+- Assets/editor default resources/images/myhome/gardens/myhome_garden52.png
+- Assets/editor default resources/images/myhome/gardens/myhome_garden10.png
+- Assets/editor default resources/images/myhome/gardens/myhome_garden61.asset
+- Assets/editor default resources/images/myhome/gardens/myhome_garden11.png
+- Assets/editor default resources/images/myhome/gardens/myhome_garden20.asset
+- Assets/editor default resources/images/myhome/gardens/myhome_garden21.asset
+- Assets/editor default resources/images/myhome/gardens/myhome_garden41.asset
+- Assets/editor default resources/images/myhome/gardens/myhome_garden61.png
+- Assets/editor default resources/images/myhome/gardens/myhome_garden12.png
+- Assets/editor default resources/images/myhome/gardens/myhome_garden62.png
+- Assets/editor default resources/images/myhome/gardens/myhome_garden20.png
+- Assets/editor default resources/images/myhome/gardens/myhome_garden0.asset
+- Assets/editor default resources/images/myhome/gardens/myhome_garden51.png
+- Assets/editor default resources/images/myhome/gardens/myhome_garden60.asset
+- Assets/editor default resources/images/myhome/gardens/myhome_garden30.png
+- Assets/editor default resources/images/myhome/gardens/myhome_garden40.asset
+- Assets/editor default resources/images/myhome/gardens/myhome_garden0.png
+- Assets/editor default resources/images/myhome/gardens/myhome_garden41.png
+Dependencies: []

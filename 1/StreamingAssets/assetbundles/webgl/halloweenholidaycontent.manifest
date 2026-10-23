@@ -1,0 +1,25 @@
+ManifestFileVersion: 0
+CRC: 1314936826
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 5580d4076d1f2a4c41062aaad772eaa8
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 9e6ad29cbd2df8fbe1a15315db0e51ab
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+Assets:
+- Assets/editor default resources/assetbundlesresources/holidaycontent/halloweenholidaycontent_2.asset
+- Assets/editor default resources/assetbundlesresources/holidaycontent/halloweenlights_1.asset
+- Assets/editor default resources/assetbundlesresources/holidaycontent/halloweenlights.png
+- Assets/editor default resources/assetbundlesresources/holidaycontent/halloweenlights_2.asset
+- Assets/editor default resources/assetbundlesresources/holidaycontent/halloweenlights_0.asset
+- Assets/editor default resources/assetbundlesresources/holidaycontent/halloweenholidaycontent_0.asset
+- Assets/editor default resources/assetbundlesresources/holidaycontent/halloweenholidaycontent.png
+- Assets/editor default resources/assetbundlesresources/holidaycontent/halloweenholidaycontent_1.asset
+Dependencies: []

@@ -1,0 +1,40 @@
+ManifestFileVersion: 0
+CRC: 1606662931
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 349708de001f24a90a3219cb6c9dc433
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: c21d61fe394c58399df3c6fb5c7c99b3
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/editor default resources/images/encountercharacters/wingman.asset
+- Assets/editor default resources/images/encountercharacters/collector.asset
+- Assets/editor default resources/images/encountercharacters/collector.png
+- Assets/editor default resources/images/encountercharacters/bureaucrat.asset
+- Assets/editor default resources/images/encountercharacters/mafia_guy.asset
+- Assets/editor default resources/images/encountercharacters/rapper.asset
+- Assets/editor default resources/images/encountercharacters/mickey.asset
+- Assets/editor default resources/images/encountercharacters/thief.asset
+- Assets/editor default resources/images/encountercharacters/fbi.asset
+- Assets/editor default resources/images/encountercharacters/thief.png
+- Assets/editor default resources/images/encountercharacters/mafia_guy.png
+- Assets/editor default resources/images/encountercharacters/fbi.png
+- Assets/editor default resources/images/encountercharacters/explorer.asset
+- Assets/editor default resources/images/encountercharacters/rapper.png
+- Assets/editor default resources/images/encountercharacters/bureaucrat.png
+- Assets/editor default resources/images/encountercharacters/explorer.png
+- Assets/editor default resources/images/encountercharacters/police.png
+- Assets/editor default resources/images/encountercharacters/mafia_boss.asset
+- Assets/editor default resources/images/encountercharacters/police.asset
+- Assets/editor default resources/images/encountercharacters/mafia_boss.png
+- Assets/editor default resources/images/encountercharacters/mickey.png
+- Assets/editor default resources/images/encountercharacters/wingman.png
+Dependencies: []

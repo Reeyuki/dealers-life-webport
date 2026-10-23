@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Dealer's Life</title>
+    <link rel="icon" href="data:,">
+    <style>
+      * { box-sizing: border-box; }
+      html, body {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 100%;
+        background: #0b0d10;
+        overflow: hidden;
+        color: #e6eaf0;
+        font-family: system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      }
+      #unityContainer {
+        position: fixed;
+        inset: 0;
+        width: 100%;
+        height: 100%;
+        background: #0b0d10;
+      }
+      #unityContainer canvas { display: block; }
+      #loadingScreen {
+        position: fixed;
+        inset: 0;
+        z-index: 10;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: radial-gradient(circle at 50% 42%, #171d26 0%, #0b0d10 72%);
+        transition: opacity 0.45s ease;
+      }
+      #loadingScreen.hidden { opacity: 0; pointer-events: none; }
+      .loadingCard { width: min(420px, 82vw); text-align: center; }
+      .loadingCard h1 {
+        margin: 0 0 24px;
+        font-size: 21px;
+        font-weight: 600;
+        letter-spacing: 0.18em;
+        text-transform: uppercase;
+        color: #f3f6fa;
+      }
+      .progressTrack {
+        position: relative;
+        width: 100%;
+        height: 6px;
+        border-radius: 999px;
+        background: #1e242d;
+        overflow: hidden;
+      }
+      .progressFill {
+        height: 100%;
+        width: 0%;
+        border-radius: 999px;
+        background: linear-gradient(90deg, #4f8cff, #9a6bff);
+        transition: width 0.25s ease;
+      }
+      .progressMeta {
+        display: flex;
+        align-items: baseline;
+        justify-content: space-between;
+        margin-top: 13px;
+        font-size: 12.5px;
+        letter-spacing: 0.03em;
+        color: #7f8b9b;
+      }
+      #progressValue {
+        color: #cfd9e6;
+        font-weight: 600;
+        font-variant-numeric: tabular-nums;
+      }
+      #fullscreenButton {
+        position: fixed;
+        top: 16px;
+        right: 16px;
+        z-index: 20;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 42px;
+        height: 42px;
+        padding: 0;
+        border: 1px solid rgba(255, 255, 255, 0.12);
+        border-radius: 10px;
+        background: rgba(20, 25, 32, 0.68);
+        color: #dde4ee;
+        cursor: pointer;
+        opacity: 0;
+        pointer-events: none;
+        transition: opacity 0.25s ease, background 0.2s ease, border-color 0.2s ease;
+      }
+      #fullscreenButton.visible { opacity: 1; pointer-events: auto; }
+      #fullscreenButton:hover {
+        background: rgba(42, 50, 63, 0.92);
+        border-color: rgba(255, 255, 255, 0.26);
+      }
+      #fullscreenButton svg { width: 20px; height: 20px; }
+    </style>
+  </head>
+  <body>
+    <div id="unityContainer"></div>
+
+    <button id="fullscreenButton" type="button" aria-label="Toggle fullscreen" title="Fullscreen">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M8 3H5a2 2 0 0 0-2 2v3"></path>
+        <path d="M16 3h3a2 2 0 0 1 2 2v3"></path>
+        <path d="M16 21h3a2 2 0 0 0 2-2v-3"></path>
+        <path d="M8 21H5a2 2 0 0 1-2-2v-3"></path>
+      </svg>
+    </button>
+
+    <div id="loadingScreen">
+      <div class="loadingCard">
+        <h1>Dealer's Life</h1>
+        <div class="progressTrack"><div class="progressFill" id="progressFill"></div></div>
+        <div class="progressMeta">
+          <span id="progressLabel">Downloading game assets</span>
+          <span id="progressValue">0%</span>
+        </div>
+      </div>
+    </div>
+
+    <script src="Build/UnityLoader.js"></script>
+    <script>
+      (function () {
+        "use strict";
+
+        var ASSET_BASE = "https://cdn.jsdelivr.net/gh/Reeyuki/dealers-life-webport@main/1";
+        var CONFIG_KEY = "Build/dl1.json";
+
+        var ASSETS = [
+          { key: "data", name: "dl1.data", file: "dl1.data.unityweb", count: 3, size: 29928111, mime: "application/octet-stream" },
+          { key: "wasm", name: "dl1.wasm", file: "dl1.wasm.code.unityweb", count: 3, size: 29581818, mime: "application/wasm" }
+        ];
+
+        var assets = {};
+        ASSETS.forEach(function (asset) {
+          assets[asset.key] = asset;
+          asset.url = ASSET_BASE + "/" + asset.file;
+          asset.chunks = [];
+          for (var i = 0; i < asset.count; i++) {
+            asset.chunks.push(ASSET_BASE + "/" + asset.name + (i < 10 ? "0" + i : String(i)));
+          }
+        });
+
+        var CONFIG = {
+          companyName: "Abyte Entertainment",
+          productName: "Dealer's Life",
+          productVersion: "1.26",
+          dataUrl: assets.data.url,
+          wasmCodeUrl: assets.wasm.url,
+          wasmFrameworkUrl: new URL("Build/dl1.wasm.framework.unityweb", document.baseURI).href,
+          graphicsAPI: ["WebGL 2.0", "WebGL 1.0"],
+          webglContextAttributes: { preserveDrawingBuffer: false },
+          splashScreenStyle: "Dark",
+          backgroundColor: "#0b0d10",
+          developmentBuild: false,
+          multithreading: false,
+          unityVersion: "2019.4.7f1"
+        };
+
+        function matchAsset(url) {
+          var clean = String(url).split("#")[0].split("?")[0];
+          if (clean === CONFIG_KEY) return { config: true };
+          for (var i = 0; i < ASSETS.length; i++) {
+            if (ASSETS[i].url === clean) return ASSETS[i];
+          }
+          return null;
+        }
+
+        function define(target, name, value) {
+          Object.defineProperty(target, name, { value: value, configurable: true, writable: true });
+        }
+
+        var NativeXHR = window.XMLHttpRequest;
+
+        class SplitXHR extends NativeXHR {
+          open(method, url) {
+            this.__hit = matchAsset(url);
+            this.__url = String(url);
+            if (this.__hit) return;
+            return super.open.apply(this, arguments);
+          }
+          setRequestHeader(name, value) {
+            if (this.__hit) return;
+            return super.setRequestHeader(name, value);
+          }
+          getResponseHeader(name) {
+            if (!this.__hit) return super.getResponseHeader(name);
+            if (this.__hit.config) return /content-type/i.test(String(name)) ? "application/json" : null;
+            return /content-type/i.test(String(name)) ? this.__hit.mime : null;
+          }
+          getAllResponseHeaders() {
+            if (!this.__hit) return super.getAllResponseHeaders();
+            return "content-type: " + (this.__hit.config ? "application/json" : this.__hit.mime) + "\r\n";
+          }
+          abort() {
+            if (this.__hit) return;
+            return super.abort();
+          }
+          send() {
+            var hit = this.__hit;
+            if (!hit) return super.send.apply(this, arguments);
+            var self = this;
+            setTimeout(function () {
+              var isConfig = !!hit.config;
+              var mime = isConfig ? "application/json" : hit.mime;
+              var text = isConfig ? JSON.stringify(CONFIG) : "";
+              var buffer = isConfig ? new TextEncoder().encode(text).buffer : hit.data.buffer;
+              var type = self.responseType;
+              var response;
+              if (type === "arraybuffer") response = buffer;
+              else if (type === "blob") response = isConfig ? new Blob([text], { type: mime }) : hit.blob;
+              else if (type === "json") response = isConfig ? CONFIG : null;
+              else response = text;
+              var total = isConfig ? text.length : hit.data.length;
+              define(self, "readyState", 4);
+              define(self, "status", 200);
+              define(self, "statusText", "OK");
+              define(self, "responseURL", self.__url);
+              define(self, "response", response);
+              define(self, "responseText", typeof response === "string" ? response : "");
+              define(self, "responseXML", null);
+              self.dispatchEvent(new Event("readystatechange"));
+              self.dispatchEvent(new ProgressEvent("progress", { lengthComputable: true, loaded: total, total: total }));
+              self.dispatchEvent(new ProgressEvent("load", { lengthComputable: true, loaded: total, total: total }));
+              self.dispatchEvent(new ProgressEvent("loadend", { lengthComputable: true, loaded: total, total: total }));
+            }, 0);
+          }
+        }
+
+        var nativeFetch = window.fetch ? window.fetch.bind(window) : null;
+
+        window.XMLHttpRequest = SplitXHR;
+        window.fetch = function (input, init) {
+          var url = typeof input === "string" ? input : (input && input.url) || String(input);
+          var hit = matchAsset(url);
+          if (!hit) {
+            if (nativeFetch) return nativeFetch(input, init);
+            return Promise.reject(new Error("fetch is not available"));
+          }
+          if (hit.config) {
+            return Promise.resolve(new Response(JSON.stringify(CONFIG), {
+              status: 200,
+              headers: { "Content-Type": "application/json" }
+            }));
+          }
+          return Promise.resolve(new Response(hit.data, {
+            status: 200,
+            headers: { "Content-Type": hit.mime }
+          }));
+        };
+
+        var progressFill = document.getElementById("progressFill");
+        var progressValue = document.getElementById("progressValue");
+        var progressLabel = document.getElementById("progressLabel");
+        var loadingScreen = document.getElementById("loadingScreen");
+        var fullscreenButton = document.getElementById("fullscreenButton");
+
+        var totalBytes = 0;
+        ASSETS.forEach(function (asset) { totalBytes += asset.size; });
+
+        var receivedBytes = 0;
+        var phase = "download";
+        var engineProgress = 0;
+        var unityInstance = null;
+
+        function paint() {
+          var percent;
+          if (phase === "ready") percent = 100;
+          else if (phase === "engine") percent = 90 + engineProgress * 10;
+          else percent = totalBytes ? (receivedBytes / totalBytes) * 90 : 0;
+          percent = Math.max(0, Math.min(99, percent));
+          if (phase === "ready") percent = 100;
+          progressFill.style.width = percent.toFixed(1) + "%";
+          progressValue.textContent = Math.floor(percent) + "%";
+          progressLabel.textContent = phase === "ready"
+            ? "Ready"
+            : phase === "engine"
+              ? "Starting game engine"
+              : "Downloading game assets";
+        }
+
+        function joinParts(parts) {
+          var length = 0;
+          for (var i = 0; i < parts.length; i++) length += parts[i].length;
+          var joined = new Uint8Array(length);
+          var offset = 0;
+          for (var j = 0; j < parts.length; j++) {
+            joined.set(parts[j], offset);
+            offset += parts[j].length;
+          }
+          return joined;
+        }
+
+        function downloadChunk(url) {
+          return fetch(url).then(function (response) {
+            if (!response.ok) throw new Error("Could not load " + url + " (" + response.status + ")");
+            if (!response.body || !response.body.getReader) {
+              return response.arrayBuffer().then(function (buffer) {
+                receivedBytes += buffer.byteLength;
+                paint();
+                return new Uint8Array(buffer);
+              });
+            }
+            var reader = response.body.getReader();
+            var parts = [];
+            function pump() {
+              return reader.read().then(function (result) {
+                if (result.done) return;
+                parts.push(result.value);
+                receivedBytes += result.value.length;
+                paint();
+                return pump();
+              });
+            }
+            return pump().then(function () { return joinParts(parts); });
+          });
+        }
+
+        function loadAsset(asset) {
+          return Promise.all(asset.chunks.map(downloadChunk)).then(function (parts) {
+            asset.data = joinParts(parts);
+            asset.blob = new Blob([asset.data], { type: asset.mime });
+          });
+        }
+
+        function finish() {
+          phase = "ready";
+          paint();
+          fullscreenButton.classList.add("visible");
+          loadingScreen.classList.add("hidden");
+          setTimeout(function () { loadingScreen.style.display = "none"; }, 500);
+        }
+
+        function fail(error) {
+          phase = "error";
+          progressLabel.textContent = "Failed to load: " + (error && error.message ? error.message : error);
+          progressLabel.style.color = "#ff7b72";
+          progressValue.textContent = "";
+          progressFill.style.background = "#ff7b72";
+          progressFill.style.width = "100%";
+          console.error(error);
+        }
+
+        function startGame() {
+          phase = "engine";
+          paint();
+          unityInstance = UnityLoader.instantiate("unityContainer", CONFIG_KEY, {
+            onProgress: function (instance, progress) {
+              unityInstance = instance;
+              engineProgress = progress;
+              if (progress >= 1) finish();
+              else paint();
+            },
+            onsuccess: function () { finish(); },
+            onerror: function (message) { fail(new Error(message)); }
+          });
+        }
+
+        fullscreenButton.addEventListener("click", function () {
+          if (unityInstance && typeof unityInstance.SetFullscreen === "function") {
+            unityInstance.SetFullscreen(1);
+          }
+        });
+
+        paint();
+        Promise.all(ASSETS.map(loadAsset)).then(startGame).catch(fail);
+      })();
+    </script>
+  </body>
+</html>

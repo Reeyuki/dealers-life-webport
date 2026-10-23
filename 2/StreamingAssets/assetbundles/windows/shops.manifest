@@ -1,0 +1,94 @@
+ManifestFileVersion: 0
+CRC: 4163057441
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: a4955cc2f563277e901985b5ff9ed611
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: c21d61fe394c58399df3c6fb5c7c99b3
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Editor Default Resources/Images/Shops/Zone1/UI/ui_zone1_haggleArrowDown.png
+- Assets/Editor Default Resources/Images/Shops/Zone1/UI/ui_zone1_haggleV_push.png
+- Assets/Editor Default Resources/Images/Shops/Zone1/UI/ui_zone1_haggleX.png
+- Assets/Editor Default Resources/Images/Shops/Zone3/Backgrounds/shop_zone3_1.png
+- Assets/Editor Default Resources/Images/Shops/Zone2/UI/ui_zone2_haggleArrowUp.png
+- Assets/Editor Default Resources/Images/Shops/Zone3/UI/ui_zone3_shopTable.png
+- Assets/Editor Default Resources/Images/Shops/ui_haggleScreen.png
+- Assets/Editor Default Resources/Images/Shops/Zone4/UI/ui_zone4_haggleV_push.png
+- Assets/Editor Default Resources/Images/Shops/Zone2/UI/ui_zone2_haggleArrowConnector.png
+- Assets/Editor Default Resources/Images/Shops/Zone3/UI/ui_zone3_tabletHandler.png
+- Assets/Editor Default Resources/Images/Shops/Zone3/Backgrounds/shop_zone3_5.png
+- Assets/Editor Default Resources/Images/Shops/Zone2/Backgrounds/shop_zone2_5.png
+- Assets/Editor Default Resources/Images/Shops/Zone4/UI/ui_zone4_haggleX.png
+- Assets/Editor Default Resources/Images/Shops/Zone1/UI/ui_zone1_haggleArrowDown_push.png
+- Assets/Editor Default Resources/Images/Shops/Zone2/UI/ui_zone2_haggleX.png
+- Assets/Editor Default Resources/Images/Shops/Zone4/UI/ui_zone4_haggleArrowDown.png
+- Assets/Editor Default Resources/Images/Shops/Zone2/Backgrounds/shop_zone2_1.png
+- Assets/Editor Default Resources/Images/Shops/Zone3/Backgrounds/shop_zone3_4.png
+- Assets/Editor Default Resources/Images/Shops/Zone1/Backgrounds/shop_zone1_2.png
+- Assets/Editor Default Resources/Images/Shops/Zone3/UI/ui_zone3_haggleArrowDown.png
+- Assets/Editor Default Resources/Images/Shops/Zone4/UI/ui_zone4_haggleDisplay.png
+- Assets/Editor Default Resources/Images/Shops/Zone4/UI/ui_zone4_haggleArrowDown_push.png
+- Assets/Editor Default Resources/Images/Shops/Zone4/Backgrounds/shop_zone4_2.png
+- Assets/Editor Default Resources/Images/Shops/Zone2/Backgrounds/shop_zone2_4.png
+- Assets/Editor Default Resources/Images/Shops/Zone1/Backgrounds/shop_zone1_4.png
+- Assets/Editor Default Resources/Images/Shops/Zone2/UI/ui_zone2_haggleArrowDown_push.png
+- Assets/Editor Default Resources/Images/Shops/Zone2/UI/ui_zone2_haggleArrowUp_push.png
+- Assets/Editor Default Resources/Images/Shops/Zone3/UI/ui_zone3_haggleX_push.png
+- Assets/Editor Default Resources/Images/Shops/Zone2/UI/ui_zone2_haggleV.png
+- Assets/Editor Default Resources/Images/Shops/Zone1/Backgrounds/shop_zone1_5.png
+- Assets/Editor Default Resources/Images/Shops/Zone2/UI/ui_zone2_shopTable.png
+- Assets/Editor Default Resources/Images/Shops/Zone4/Backgrounds/shop_zone4_1.png
+- Assets/Editor Default Resources/Images/Shops/Zone1/UI/ui_zone1_shopTable.png
+- Assets/Editor Default Resources/Images/Shops/Zone4/UI/ui_zone4_shopMat.png
+- Assets/Editor Default Resources/Images/Shops/Zone1/Backgrounds/shop_zone1_1.png
+- Assets/Editor Default Resources/Images/Shops/Zone1/Backgrounds/shop_zone1_3.png
+- Assets/Editor Default Resources/Images/Shops/Zone2/UI/ui_zone2_haggleV_push.png
+- Assets/Editor Default Resources/Images/Shops/Zone1/UI/ui_zone1_haggleArrowUp_push.png
+- Assets/Editor Default Resources/Images/Shops/ui_haggleBoard_addon.png
+- Assets/Editor Default Resources/Images/Shops/Zone2/UI/ui_zone2_shopMat.png
+- Assets/Editor Default Resources/Images/Shops/Zone3/Backgrounds/shop_zone3_2.png
+- Assets/Editor Default Resources/Images/Shops/Zone4/UI/ui_zone4_haggleArrowUp_push.png
+- Assets/Editor Default Resources/Images/Shops/Zone1/UI/ui_zone1_shopMat.png
+- Assets/Editor Default Resources/Images/Shops/ui_haggleScreen_addon.png
+- Assets/Editor Default Resources/Images/Shops/Zone1/UI/ui_zone1_haggleArrowConnector.png
+- Assets/Editor Default Resources/Images/Shops/Zone4/UI/ui_zone4_tabletHandler.png
+- Assets/Editor Default Resources/Images/Shops/Zone3/UI/ui_zone3_haggleArrowConnector.png
+- Assets/Editor Default Resources/Images/Shops/Zone2/UI/ui_zone2_tabletHandler.png
+- Assets/Editor Default Resources/Images/Shops/Zone4/Backgrounds/shop_zone4_3.png
+- Assets/Editor Default Resources/Images/Shops/Zone4/Backgrounds/shop_zone4_5.png
+- Assets/Editor Default Resources/Images/Shops/Zone3/Backgrounds/shop_zone3_3.png
+- Assets/Editor Default Resources/Images/Shops/Zone4/UI/ui_zone4_shopTable.png
+- Assets/Editor Default Resources/Images/Shops/Zone2/UI/ui_zone2_haggleArrowDown.png
+- Assets/Editor Default Resources/Images/Shops/Zone2/Backgrounds/shop_zone2_2.png
+- Assets/Editor Default Resources/Images/Shops/Zone3/UI/ui_zone3_haggleArrowUp.png
+- Assets/Editor Default Resources/Images/Shops/Zone3/UI/ui_zone3_haggleV_push.png
+- Assets/Editor Default Resources/Images/Shops/Zone3/UI/ui_zone3_haggleArrowUp_push.png
+- Assets/Editor Default Resources/Images/Shops/Zone4/Backgrounds/shop_zone4_4.png
+- Assets/Editor Default Resources/Images/Shops/Zone1/UI/ui_zone1_haggleX_push.png
+- Assets/Editor Default Resources/Images/Shops/Zone4/UI/ui_zone4_haggleV.png
+- Assets/Editor Default Resources/Images/Shops/Zone1/UI/ui_zone1_haggleV.png
+- Assets/Editor Default Resources/Images/Shops/Zone1/UI/ui_zone1_haggleDisplay.png
+- Assets/Editor Default Resources/Images/Shops/Zone4/UI/ui_zone4_haggleArrowConnector.png
+- Assets/Editor Default Resources/Images/Shops/Zone4/UI/ui_zone4_haggleX_push.png
+- Assets/Editor Default Resources/Images/Shops/Zone2/UI/ui_zone2_haggleDisplay.png
+- Assets/Editor Default Resources/Images/Shops/Zone3/UI/ui_zone3_haggleDisplay.png
+- Assets/Editor Default Resources/Images/Shops/Zone3/UI/ui_zone3_haggleV.png
+- Assets/Editor Default Resources/Images/Shops/Zone3/UI/ui_zone3_haggleX.png
+- Assets/Editor Default Resources/Images/Shops/Zone3/UI/ui_zone3_haggleArrowDown_push.png
+- Assets/Editor Default Resources/Images/Shops/Zone4/UI/ui_zone4_haggleArrowUp.png
+- Assets/Editor Default Resources/Images/Shops/Zone3/UI/ui_zone3_shopMat.png
+- Assets/Editor Default Resources/Images/Shops/Zone1/UI/ui_zone1_tabletHandler.png
+- Assets/Editor Default Resources/Images/Shops/ui_haggleBoard.png
+- Assets/Editor Default Resources/Images/Shops/Zone2/UI/ui_zone2_haggleX_push.png
+- Assets/Editor Default Resources/Images/Shops/Zone1/UI/ui_zone1_haggleArrowUp.png
+- Assets/Editor Default Resources/Images/Shops/Zone2/Backgrounds/shop_zone2_3.png
+Dependencies: []

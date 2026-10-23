@@ -1,0 +1,117 @@
+ManifestFileVersion: 0
+CRC: 1992102714
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 84fa7d996fcc45bb8d77e1c2f74742a4
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: c21d61fe394c58399df3c6fb5c7c99b3
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/editor default resources/images/employees/treasure_hunter3_1.asset
+- Assets/editor default resources/images/employees/expert1_0.asset
+- Assets/editor default resources/images/employees/analyst1_1.asset
+- Assets/editor default resources/images/employees/profiler3_1.asset
+- Assets/editor default resources/images/employees/advertiser1_0.asset
+- Assets/editor default resources/images/employees/brainwasher1_1.asset
+- Assets/editor default resources/images/employees/restorer2.png
+- Assets/editor default resources/images/employees/bouncer3_1.asset
+- Assets/editor default resources/images/employees/forger2_0.asset
+- Assets/editor default resources/images/employees/analyst3_0.asset
+- Assets/editor default resources/images/employees/bouncer3_0.asset
+- Assets/editor default resources/images/employees/bouncer2_0.asset
+- Assets/editor default resources/images/employees/brainwasher1_0.asset
+- Assets/editor default resources/images/employees/analyst2_1.asset
+- Assets/editor default resources/images/employees/brainwasher1.png
+- Assets/editor default resources/images/employees/profiler1_1.asset
+- Assets/editor default resources/images/employees/expert1_1.asset
+- Assets/editor default resources/images/employees/treasure_hunter2.png
+- Assets/editor default resources/images/employees/bouncer2_1.asset
+- Assets/editor default resources/images/employees/bouncer1_1.asset
+- Assets/editor default resources/images/employees/expert2.png
+- Assets/editor default resources/images/employees/lucky_guy1.png
+- Assets/editor default resources/images/employees/profiler3.png
+- Assets/editor default resources/images/employees/restorer2_1.asset
+- Assets/editor default resources/images/employees/analyst3_1.asset
+- Assets/editor default resources/images/employees/profiler1.png
+- Assets/editor default resources/images/employees/treasure_hunter1_0.asset
+- Assets/editor default resources/images/employees/clerk3_1.asset
+- Assets/editor default resources/images/employees/forger3.png
+- Assets/editor default resources/images/employees/luckyGuy1_0.asset
+- Assets/editor default resources/images/employees/restorer1_0.asset
+- Assets/editor default resources/images/employees/brainwasher2_0.asset
+- Assets/editor default resources/images/employees/restorer3_1.asset
+- Assets/editor default resources/images/employees/clerk2_1.asset
+- Assets/editor default resources/images/employees/bouncer3.png
+- Assets/editor default resources/images/employees/advertiser2.png
+- Assets/editor default resources/images/employees/analyst2_0.asset
+- Assets/editor default resources/images/employees/clerk1.png
+- Assets/editor default resources/images/employees/analyst2.png
+- Assets/editor default resources/images/employees/forger2_1.asset
+- Assets/editor default resources/images/employees/expert2_1.asset
+- Assets/editor default resources/images/employees/brainwasher2.png
+- Assets/editor default resources/images/employees/restorer1_1.asset
+- Assets/editor default resources/images/employees/forger1.png
+- Assets/editor default resources/images/employees/forger3_1.asset
+- Assets/editor default resources/images/employees/luckyGuy3_1.asset
+- Assets/editor default resources/images/employees/advertiser1.png
+- Assets/editor default resources/images/employees/forger1_1.asset
+- Assets/editor default resources/images/employees/luckyGuy1_1.asset
+- Assets/editor default resources/images/employees/profiler2_0.asset
+- Assets/editor default resources/images/employees/profiler2.png
+- Assets/editor default resources/images/employees/bouncer2.png
+- Assets/editor default resources/images/employees/treasure_hunter2_1.asset
+- Assets/editor default resources/images/employees/expert3_0.asset
+- Assets/editor default resources/images/employees/bouncer1.png
+- Assets/editor default resources/images/employees/advertiser2_1.asset
+- Assets/editor default resources/images/employees/restorer3.png
+- Assets/editor default resources/images/employees/bouncer1_0.asset
+- Assets/editor default resources/images/employees/clerk1_0.asset
+- Assets/editor default resources/images/employees/expert1.png
+- Assets/editor default resources/images/employees/brainwasher3_1.asset
+- Assets/editor default resources/images/employees/brainwasher2_1.asset
+- Assets/editor default resources/images/employees/treasure_hunter1.png
+- Assets/editor default resources/images/employees/lucky_guy3.png
+- Assets/editor default resources/images/employees/treasure_hunter1_1.asset
+- Assets/editor default resources/images/employees/brainwasher3_0.asset
+- Assets/editor default resources/images/employees/clerk2.png
+- Assets/editor default resources/images/employees/analyst1.png
+- Assets/editor default resources/images/employees/treasure_hunter3.png
+- Assets/editor default resources/images/employees/profiler2_1.asset
+- Assets/editor default resources/images/employees/luckyGuy3_0.asset
+- Assets/editor default resources/images/employees/luckyGuy2_0.asset
+- Assets/editor default resources/images/employees/restorer1.png
+- Assets/editor default resources/images/employees/advertiser3_0.asset
+- Assets/editor default resources/images/employees/profiler1_0.asset
+- Assets/editor default resources/images/employees/expert2_0.asset
+- Assets/editor default resources/images/employees/restorer2_0.asset
+- Assets/editor default resources/images/employees/luckyGuy2_1.asset
+- Assets/editor default resources/images/employees/clerk3.png
+- Assets/editor default resources/images/employees/advertiser3_1.asset
+- Assets/editor default resources/images/employees/profiler3_0.asset
+- Assets/editor default resources/images/employees/expert3.png
+- Assets/editor default resources/images/employees/brainwasher3.png
+- Assets/editor default resources/images/employees/restorer3_0.asset
+- Assets/editor default resources/images/employees/advertiser1_1.asset
+- Assets/editor default resources/images/employees/expert3_1.asset
+- Assets/editor default resources/images/employees/treasure_hunter2_0.asset
+- Assets/editor default resources/images/employees/lucky_guy2.png
+- Assets/editor default resources/images/employees/clerk3_0.asset
+- Assets/editor default resources/images/employees/analyst1_0.asset
+- Assets/editor default resources/images/employees/advertiser3.png
+- Assets/editor default resources/images/employees/forger3_0.asset
+- Assets/editor default resources/images/employees/treasure_hunter3_0.asset
+- Assets/editor default resources/images/employees/forger1_0.asset
+- Assets/editor default resources/images/employees/clerk2_0.asset
+- Assets/editor default resources/images/employees/clerk1_1.asset
+- Assets/editor default resources/images/employees/forger2.png
+- Assets/editor default resources/images/employees/advertiser2_0.asset
+- Assets/editor default resources/images/employees/analyst3.png
+Dependencies: []

@@ -1,0 +1,29 @@
+ManifestFileVersion: 0
+CRC: 2913760060
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: f3eec98a25b17348399438e10332f42c
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: c21d61fe394c58399df3c6fb5c7c99b3
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Editor Default Resources/Images/EncounterCharacters/explorer.png
+- Assets/Editor Default Resources/Images/EncounterCharacters/mafia_boss.png
+- Assets/Editor Default Resources/Images/EncounterCharacters/mafia_guy.png
+- Assets/Editor Default Resources/Images/EncounterCharacters/thief.png
+- Assets/Editor Default Resources/Images/EncounterCharacters/fbi.png
+- Assets/Editor Default Resources/Images/EncounterCharacters/police.png
+- Assets/Editor Default Resources/Images/EncounterCharacters/rapper.png
+- Assets/Editor Default Resources/Images/EncounterCharacters/bureaucrat.png
+- Assets/Editor Default Resources/Images/EncounterCharacters/wingman.png
+- Assets/Editor Default Resources/Images/EncounterCharacters/collector.png
+- Assets/Editor Default Resources/Images/EncounterCharacters/mickey.png
+Dependencies: []

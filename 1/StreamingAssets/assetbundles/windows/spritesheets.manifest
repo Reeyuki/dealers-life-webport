@@ -1,0 +1,147 @@
+ManifestFileVersion: 0
+CRC: 2048376953
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 104106a349d2c97a11f4fb7f65348a89
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: cb3f6df5cbc4a2990c44c2787bc9553a
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+Assets:
+- Assets/Editor Default Resources/AssetBundlesResources/Spritesheets/donna_sopracciglia_prezioso.png
+- Assets/Editor Default Resources/AssetBundlesResources/Spritesheets/donna_mano_professionale.png
+- Assets/Editor Default Resources/AssetBundlesResources/Spritesheets/bocca_ribelle.png
+- Assets/Editor Default Resources/AssetBundlesResources/Spritesheets/donna_capelli_trasandato.png
+- Assets/Editor Default Resources/AssetBundlesResources/Spritesheets/donna_mano_stravagante.png
+- Assets/Editor Default Resources/AssetBundlesResources/Spritesheets/donna_braccia_trasandato.png
+- Assets/Editor Default Resources/AssetBundlesResources/Spritesheets/donna_collo_prezioso.png
+- Assets/Editor Default Resources/AssetBundlesResources/Spritesheets/mano_prezioso.png
+- Assets/Editor Default Resources/AssetBundlesResources/Spritesheets/mano_stravagante.png
+- Assets/Editor Default Resources/AssetBundlesResources/Spritesheets/donna_sopracciglia_trasandato.png
+- Assets/Editor Default Resources/AssetBundlesResources/Spritesheets/donna_bocca_neutro.png
+- Assets/Editor Default Resources/AssetBundlesResources/Spritesheets/donna_guance_stravagante.png
+- Assets/Editor Default Resources/AssetBundlesResources/Spritesheets/guance_prezioso.png
+- Assets/Editor Default Resources/AssetBundlesResources/Spritesheets/donna_naso_neutro.png
+- Assets/Editor Default Resources/AssetBundlesResources/Spritesheets/bocca_prezioso.png
+- Assets/Editor Default Resources/AssetBundlesResources/Spritesheets/donna_sopracciglia_ribelle.png
+- Assets/Editor Default Resources/AssetBundlesResources/Spritesheets/donna_braccia_prezioso.png
+- Assets/Editor Default Resources/AssetBundlesResources/Spritesheets/donna_vestiti_neutro.png
+- Assets/Editor Default Resources/AssetBundlesResources/Spritesheets/donna_collo_stravagante.png
+- Assets/Editor Default Resources/AssetBundlesResources/Spritesheets/scarpe_stravagante.png
+- Assets/Editor Default Resources/AssetBundlesResources/Spritesheets/capelli_ribelle.png
+- Assets/Editor Default Resources/AssetBundlesResources/Spritesheets/donna_occhi_impaziente.png
+- Assets/Editor Default Resources/AssetBundlesResources/Spritesheets/collo_ribelle.png
+- Assets/Editor Default Resources/AssetBundlesResources/Spritesheets/cappello_stravagante.png
+- Assets/Editor Default Resources/AssetBundlesResources/Spritesheets/guance_ribelle.png
+- Assets/Editor Default Resources/AssetBundlesResources/Spritesheets/occhi_prezioso.png
+- Assets/Editor Default Resources/AssetBundlesResources/Spritesheets/orecchie_neutro.png
+- Assets/Editor Default Resources/AssetBundlesResources/Spritesheets/naso_prezioso.png
+- Assets/Editor Default Resources/AssetBundlesResources/Spritesheets/donna_sopracciglia_stravagante.png
+- Assets/Editor Default Resources/AssetBundlesResources/Spritesheets/donna_cappello_trasandato.png
+- Assets/Editor Default Resources/AssetBundlesResources/Spritesheets/donna_braccia_professionale.png
+- Assets/Editor Default Resources/AssetBundlesResources/Spritesheets/occhi_trasandato.png
+- Assets/Editor Default Resources/AssetBundlesResources/Spritesheets/donna_cappello_ribelle.png
+- Assets/Editor Default Resources/AssetBundlesResources/Spritesheets/capelli_prezioso.png
+- Assets/Editor Default Resources/AssetBundlesResources/Spritesheets/donna_orecchie_prezioso.png
+- Assets/Editor Default Resources/AssetBundlesResources/Spritesheets/orecchie_trasandato.png
+- Assets/Editor Default Resources/AssetBundlesResources/Spritesheets/scarpe_trasandato.png
+- Assets/Editor Default Resources/AssetBundlesResources/Spritesheets/collo_prezioso.png
+- Assets/Editor Default Resources/AssetBundlesResources/Spritesheets/vestiti_trasandato.png
+- Assets/Editor Default Resources/AssetBundlesResources/Spritesheets/guance_trasandato.png
+- Assets/Editor Default Resources/AssetBundlesResources/Spritesheets/donna_mano_prezioso.png
+- Assets/Editor Default Resources/AssetBundlesResources/Spritesheets/donna_capelli_neutro.png
+- Assets/Editor Default Resources/AssetBundlesResources/Spritesheets/donna_mano_ribelle.png
+- Assets/Editor Default Resources/AssetBundlesResources/Spritesheets/donna_collo_trasandato.png
+- Assets/Editor Default Resources/AssetBundlesResources/Spritesheets/donna_scarpe_neutro.png
+- Assets/Editor Default Resources/AssetBundlesResources/Spritesheets/naso_ribelle.png
+- Assets/Editor Default Resources/AssetBundlesResources/Spritesheets/vestiti_stravagante.png
+- Assets/Editor Default Resources/AssetBundlesResources/Spritesheets/donna_orecchie_trasandato.png
+- Assets/Editor Default Resources/AssetBundlesResources/Spritesheets/cappello_prezioso.png
+- Assets/Editor Default Resources/AssetBundlesResources/Spritesheets/vestiti_neutro.png
+- Assets/Editor Default Resources/AssetBundlesResources/Spritesheets/mano_trasandato.png
+- Assets/Editor Default Resources/AssetBundlesResources/Spritesheets/braccia_professionale.png
+- Assets/Editor Default Resources/AssetBundlesResources/Spritesheets/donna_guance_trasandato.png
+- Assets/Editor Default Resources/AssetBundlesResources/Spritesheets/donna_bocca_prezioso.png
+- Assets/Editor Default Resources/AssetBundlesResources/Spritesheets/cappello_ribelle.png
+- Assets/Editor Default Resources/AssetBundlesResources/Spritesheets/donna_sopracciglia_neutro.png
+- Assets/Editor Default Resources/AssetBundlesResources/Spritesheets/capelli_trasandato.png
+- Assets/Editor Default Resources/AssetBundlesResources/Spritesheets/sopracciglia_neutro.png
+- Assets/Editor Default Resources/AssetBundlesResources/Spritesheets/bocca_stravagante.png
+- Assets/Editor Default Resources/AssetBundlesResources/Spritesheets/scarpe_prezioso.png
+- Assets/Editor Default Resources/AssetBundlesResources/Spritesheets/capelli_neutro.png
+- Assets/Editor Default Resources/AssetBundlesResources/Spritesheets/donna_braccia_ribelle.png
+- Assets/Editor Default Resources/AssetBundlesResources/Spritesheets/naso_neutro.png
+- Assets/Editor Default Resources/AssetBundlesResources/Spritesheets/capelli_stravagante.png
+- Assets/Editor Default Resources/AssetBundlesResources/Spritesheets/donna_bocca_stravagante.png
+- Assets/Editor Default Resources/AssetBundlesResources/Spritesheets/donna_cappello_prezioso.png
+- Assets/Editor Default Resources/AssetBundlesResources/Spritesheets/donna_guance_ribelle.png
+- Assets/Editor Default Resources/AssetBundlesResources/Spritesheets/donna_naso_ribelle.png
+- Assets/Editor Default Resources/AssetBundlesResources/Spritesheets/donna_bocca_trasandato.png
+- Assets/Editor Default Resources/AssetBundlesResources/Spritesheets/scarpe_professionale.png
+- Assets/Editor Default Resources/AssetBundlesResources/Spritesheets/braccia_stravagante.png
+- Assets/Editor Default Resources/AssetBundlesResources/Spritesheets/donna_naso_prezioso.png
+- Assets/Editor Default Resources/AssetBundlesResources/Spritesheets/scarpe_ribelle.png
+- Assets/Editor Default Resources/AssetBundlesResources/Spritesheets/sopracciglia_stravagante.png
+- Assets/Editor Default Resources/AssetBundlesResources/Spritesheets/occhi_stravagante.png
+- Assets/Editor Default Resources/AssetBundlesResources/Spritesheets/donna_vestiti_professionale.png
+- Assets/Editor Default Resources/AssetBundlesResources/Spritesheets/donna_vestiti_prezioso.png
+- Assets/Editor Default Resources/AssetBundlesResources/Spritesheets/donna_occhi_prezioso.png
+- Assets/Editor Default Resources/AssetBundlesResources/Spritesheets/donna_occhi_professionale.png
+- Assets/Editor Default Resources/AssetBundlesResources/Spritesheets/sopracciglia_trasandato.png
+- Assets/Editor Default Resources/AssetBundlesResources/Spritesheets/sopracciglia_prezioso.png
+- Assets/Editor Default Resources/AssetBundlesResources/Spritesheets/bocca_neutro.png
+- Assets/Editor Default Resources/AssetBundlesResources/Spritesheets/donna_scarpe_ribelle.png
+- Assets/Editor Default Resources/AssetBundlesResources/Spritesheets/braccia_prezioso.png
+- Assets/Editor Default Resources/AssetBundlesResources/Spritesheets/vestiti_prezioso.png
+- Assets/Editor Default Resources/AssetBundlesResources/Spritesheets/vestiti_ribelle.png
+- Assets/Editor Default Resources/AssetBundlesResources/Spritesheets/occhi_ribelle.png
+- Assets/Editor Default Resources/AssetBundlesResources/Spritesheets/donna_scarpe_prezioso.png
+- Assets/Editor Default Resources/AssetBundlesResources/Spritesheets/donna_orecchie_ribelle.png
+- Assets/Editor Default Resources/AssetBundlesResources/Spritesheets/donna_bocca_ribelle.png
+- Assets/Editor Default Resources/AssetBundlesResources/Spritesheets/donna_cappello_stravagante.png
+- Assets/Editor Default Resources/AssetBundlesResources/Spritesheets/donna_capelli_prezioso.png
+- Assets/Editor Default Resources/AssetBundlesResources/Spritesheets/donna_body.png
+- Assets/Editor Default Resources/AssetBundlesResources/Spritesheets/donna_occhi_stravagante.png
+- Assets/Editor Default Resources/AssetBundlesResources/Spritesheets/donna_occhi_ribelle.png
+- Assets/Editor Default Resources/AssetBundlesResources/Spritesheets/donna_collo_ribelle.png
+- Assets/Editor Default Resources/AssetBundlesResources/Spritesheets/occhi_professionale.png
+- Assets/Editor Default Resources/AssetBundlesResources/Spritesheets/donna_capelli_ribelle.png
+- Assets/Editor Default Resources/AssetBundlesResources/Spritesheets/occhi_impaziente.png
+- Assets/Editor Default Resources/AssetBundlesResources/Spritesheets/collo_trasandato.png
+- Assets/Editor Default Resources/AssetBundlesResources/Spritesheets/donna_capelli_professionale.png
+- Assets/Editor Default Resources/AssetBundlesResources/Spritesheets/donna_vestiti_trasandato.png
+- Assets/Editor Default Resources/AssetBundlesResources/Spritesheets/vestiti_professionale.png
+- Assets/Editor Default Resources/AssetBundlesResources/Spritesheets/donna_scarpe_trasandato.png
+- Assets/Editor Default Resources/AssetBundlesResources/Spritesheets/donna_mano_trasandato.png
+- Assets/Editor Default Resources/AssetBundlesResources/Spritesheets/bocca_trasandato.png
+- Assets/Editor Default Resources/AssetBundlesResources/Spritesheets/donna_occhi_neutro.png
+- Assets/Editor Default Resources/AssetBundlesResources/Spritesheets/donna_scarpe_stravagante.png
+- Assets/Editor Default Resources/AssetBundlesResources/Spritesheets/donna_orecchie_neutro.png
+- Assets/Editor Default Resources/AssetBundlesResources/Spritesheets/body.png
+- Assets/Editor Default Resources/AssetBundlesResources/Spritesheets/braccia_trasandato.png
+- Assets/Editor Default Resources/AssetBundlesResources/Spritesheets/sopracciglia_ribelle.png
+- Assets/Editor Default Resources/AssetBundlesResources/Spritesheets/donna_occhi_trasandato.png
+- Assets/Editor Default Resources/AssetBundlesResources/Spritesheets/donna_scarpe_professionale.png
+- Assets/Editor Default Resources/AssetBundlesResources/Spritesheets/mano_professionale.png
+- Assets/Editor Default Resources/AssetBundlesResources/Spritesheets/donna_guance_prezioso.png
+- Assets/Editor Default Resources/AssetBundlesResources/Spritesheets/braccia_ribelle.png
+- Assets/Editor Default Resources/AssetBundlesResources/Spritesheets/donna_capelli_stravagante.png
+- Assets/Editor Default Resources/AssetBundlesResources/Spritesheets/collo_stravagante.png
+- Assets/Editor Default Resources/AssetBundlesResources/Spritesheets/orecchie_prezioso.png
+- Assets/Editor Default Resources/AssetBundlesResources/Spritesheets/donna_vestiti_stravagante.png
+- Assets/Editor Default Resources/AssetBundlesResources/Spritesheets/donna_vestiti_ribelle.png
+- Assets/Editor Default Resources/AssetBundlesResources/Spritesheets/orecchie_ribelle.png
+- Assets/Editor Default Resources/AssetBundlesResources/Spritesheets/mano_ribelle.png
+- Assets/Editor Default Resources/AssetBundlesResources/Spritesheets/guance_stravagante.png
+- Assets/Editor Default Resources/AssetBundlesResources/Spritesheets/donna_braccia_stravagante.png
+- Assets/Editor Default Resources/AssetBundlesResources/Spritesheets/cappello_trasandato.png
+- Assets/Editor Default Resources/AssetBundlesResources/Spritesheets/occhi_neutro.png
+- Assets/Editor Default Resources/AssetBundlesResources/Spritesheets/scarpe_neutro.png
+- Assets/Editor Default Resources/AssetBundlesResources/Spritesheets/capelli_professionale.png
+Dependencies: []

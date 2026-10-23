@@ -1,0 +1,56 @@
+ManifestFileVersion: 0
+CRC: 1437596510
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 3cdc470a48322d3351700827f6a10379
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: c21d61fe394c58399df3c6fb5c7c99b3
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/editor default resources/images/myhome/backgrounds/myhome_background30.png
+- Assets/editor default resources/images/myhome/backgrounds/myhome_background60.png
+- Assets/editor default resources/images/myhome/backgrounds/myhome_background20.asset
+- Assets/editor default resources/images/myhome/backgrounds/myhome_background22.png
+- Assets/editor default resources/images/myhome/backgrounds/myhome_background12.asset
+- Assets/editor default resources/images/myhome/backgrounds/myhome_background52.png
+- Assets/editor default resources/images/myhome/backgrounds/myhome_background51.png
+- Assets/editor default resources/images/myhome/backgrounds/myhome_background62.asset
+- Assets/editor default resources/images/myhome/backgrounds/myhome_background10.png
+- Assets/editor default resources/images/myhome/backgrounds/myhome_background50.asset
+- Assets/editor default resources/images/myhome/backgrounds/myhome_background61.png
+- Assets/editor default resources/images/myhome/backgrounds/myhome_background62.png
+- Assets/editor default resources/images/myhome/backgrounds/myhome_background20.png
+- Assets/editor default resources/images/myhome/backgrounds/myhome_background11.asset
+- Assets/editor default resources/images/myhome/backgrounds/myhome_background22.asset
+- Assets/editor default resources/images/myhome/backgrounds/myhome_background51.asset
+- Assets/editor default resources/images/myhome/backgrounds/myhome_background0.asset
+- Assets/editor default resources/images/myhome/backgrounds/myhome_background41.asset
+- Assets/editor default resources/images/myhome/backgrounds/myhome_background12.png
+- Assets/editor default resources/images/myhome/backgrounds/myhome_background21.asset
+- Assets/editor default resources/images/myhome/backgrounds/myhome_background42.asset
+- Assets/editor default resources/images/myhome/backgrounds/myhome_background41.png
+- Assets/editor default resources/images/myhome/backgrounds/myhome_background10.asset
+- Assets/editor default resources/images/myhome/backgrounds/myhome_background40.asset
+- Assets/editor default resources/images/myhome/backgrounds/myhome_background52.asset
+- Assets/editor default resources/images/myhome/backgrounds/myhome_background30.asset
+- Assets/editor default resources/images/myhome/backgrounds/myhome_background40.png
+- Assets/editor default resources/images/myhome/backgrounds/myhome_background32.png
+- Assets/editor default resources/images/myhome/backgrounds/myhome_background31.png
+- Assets/editor default resources/images/myhome/backgrounds/myhome_background42.png
+- Assets/editor default resources/images/myhome/backgrounds/myhome_background0.png
+- Assets/editor default resources/images/myhome/backgrounds/myhome_background31.asset
+- Assets/editor default resources/images/myhome/backgrounds/myhome_background50.png
+- Assets/editor default resources/images/myhome/backgrounds/myhome_background61.asset
+- Assets/editor default resources/images/myhome/backgrounds/myhome_background60.asset
+- Assets/editor default resources/images/myhome/backgrounds/myhome_background32.asset
+- Assets/editor default resources/images/myhome/backgrounds/myhome_background11.png
+- Assets/editor default resources/images/myhome/backgrounds/myhome_background21.png
+Dependencies: []

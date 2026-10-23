@@ -1,0 +1,57 @@
+ManifestFileVersion: 0
+CRC: 1011757442
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 49cc028c21d4379c5879d9f11332e216
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 9e6ad29cbd2df8fbe1a15315db0e51ab
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+Assets:
+- Assets/editor default resources/assetbundlesresources/shops/commercial_1.png
+- Assets/editor default resources/assetbundlesresources/shops/commercial_2.png
+- Assets/editor default resources/assetbundlesresources/shops/suburb_3.asset
+- Assets/editor default resources/assetbundlesresources/shops/mainstreet_1.asset
+- Assets/editor default resources/assetbundlesresources/shops/mainstreet_2.asset
+- Assets/editor default resources/assetbundlesresources/shops/downtown_4.png
+- Assets/editor default resources/assetbundlesresources/shops/commercial_table.asset
+- Assets/editor default resources/assetbundlesresources/shops/downtown_table.png
+- Assets/editor default resources/assetbundlesresources/shops/downtown_1.png
+- Assets/editor default resources/assetbundlesresources/shops/mainstreet_table.asset
+- Assets/editor default resources/assetbundlesresources/shops/downtown_3.png
+- Assets/editor default resources/assetbundlesresources/shops/suburb_2.png
+- Assets/editor default resources/assetbundlesresources/shops/suburb_1.png
+- Assets/editor default resources/assetbundlesresources/shops/suburb_table.asset
+- Assets/editor default resources/assetbundlesresources/shops/commercial_3.asset
+- Assets/editor default resources/assetbundlesresources/shops/mainstreet_1.png
+- Assets/editor default resources/assetbundlesresources/shops/mainstreet_3.png
+- Assets/editor default resources/assetbundlesresources/shops/mainstreet_3.asset
+- Assets/editor default resources/assetbundlesresources/shops/commercial_3.png
+- Assets/editor default resources/assetbundlesresources/shops/suburb_table.png
+- Assets/editor default resources/assetbundlesresources/shops/mainstreet_4.png
+- Assets/editor default resources/assetbundlesresources/shops/commercial_1.asset
+- Assets/editor default resources/assetbundlesresources/shops/downtown_4.asset
+- Assets/editor default resources/assetbundlesresources/shops/commercial_table.png
+- Assets/editor default resources/assetbundlesresources/shops/mainstreet_2.png
+- Assets/editor default resources/assetbundlesresources/shops/suburb_3.png
+- Assets/editor default resources/assetbundlesresources/shops/commercial_4.asset
+- Assets/editor default resources/assetbundlesresources/shops/commercial_4.png
+- Assets/editor default resources/assetbundlesresources/shops/downtown_3.asset
+- Assets/editor default resources/assetbundlesresources/shops/suburb_4.asset
+- Assets/editor default resources/assetbundlesresources/shops/suburb_2.asset
+- Assets/editor default resources/assetbundlesresources/shops/suburb_4.png
+- Assets/editor default resources/assetbundlesresources/shops/downtown_1.asset
+- Assets/editor default resources/assetbundlesresources/shops/downtown_2.asset
+- Assets/editor default resources/assetbundlesresources/shops/downtown_table.asset
+- Assets/editor default resources/assetbundlesresources/shops/downtown_2.png
+- Assets/editor default resources/assetbundlesresources/shops/suburb_1.asset
+- Assets/editor default resources/assetbundlesresources/shops/commercial_2.asset
+- Assets/editor default resources/assetbundlesresources/shops/mainstreet_table.png
+- Assets/editor default resources/assetbundlesresources/shops/mainstreet_4.asset
+Dependencies: []

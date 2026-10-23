@@ -1,0 +1,23 @@
+ManifestFileVersion: 0
+CRC: 1129197892
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: b12b65e97bd1390c7b08f54957be2bc2
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: cb3f6df5cbc4a2990c44c2787bc9553a
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+Assets:
+- Assets/Editor Default Resources/AssetBundlesResources/RecurrentCharacters/MAFIA_GUY.png
+- Assets/Editor Default Resources/AssetBundlesResources/RecurrentCharacters/RANDAL.png
+- Assets/Editor Default Resources/AssetBundlesResources/RecurrentCharacters/SPECIAL_AGENT.png
+- Assets/Editor Default Resources/AssetBundlesResources/RecurrentCharacters/MAFIA_BOSS.png
+- Assets/Editor Default Resources/AssetBundlesResources/RecurrentCharacters/MEXICAN_GUY.png
+- Assets/Editor Default Resources/AssetBundlesResources/RecurrentCharacters/POLICEMAN.png
+Dependencies: []

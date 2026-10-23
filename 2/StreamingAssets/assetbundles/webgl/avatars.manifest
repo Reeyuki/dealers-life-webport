@@ -1,0 +1,78 @@
+ManifestFileVersion: 0
+CRC: 1839679671
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 5c5f21089b6e7361b1bf52c29aaf74ba
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: c21d61fe394c58399df3c6fb5c7c99b3
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/editor default resources/images/avatars/avatar8_1.asset
+- Assets/editor default resources/images/avatars/avatar11.png
+- Assets/editor default resources/images/avatars/avatar14_0.asset
+- Assets/editor default resources/images/avatars/avatar9.png
+- Assets/editor default resources/images/avatars/avatar6_1.asset
+- Assets/editor default resources/images/avatars/avatar4.png
+- Assets/editor default resources/images/avatars/avatar2_1.asset
+- Assets/editor default resources/images/avatars/avatar13_1.asset
+- Assets/editor default resources/images/avatars/avatar2_0.asset
+- Assets/editor default resources/images/avatars/avatar16_0.asset
+- Assets/editor default resources/images/avatars/avatar19.png
+- Assets/editor default resources/images/avatars/avatar9_0.asset
+- Assets/editor default resources/images/avatars/avatar10_0.asset
+- Assets/editor default resources/images/avatars/avatar20_0.asset
+- Assets/editor default resources/images/avatars/avatar18_0.asset
+- Assets/editor default resources/images/avatars/avatar1_0.asset
+- Assets/editor default resources/images/avatars/avatar13.png
+- Assets/editor default resources/images/avatars/avatar14_1.asset
+- Assets/editor default resources/images/avatars/avatar4_1.asset
+- Assets/editor default resources/images/avatars/avatar5_1.asset
+- Assets/editor default resources/images/avatars/avatar11_1.asset
+- Assets/editor default resources/images/avatars/avatar1_1.asset
+- Assets/editor default resources/images/avatars/avatar15.png
+- Assets/editor default resources/images/avatars/avatar16.png
+- Assets/editor default resources/images/avatars/avatar8_0.asset
+- Assets/editor default resources/images/avatars/avatar10.png
+- Assets/editor default resources/images/avatars/avatar11_0.asset
+- Assets/editor default resources/images/avatars/avatar17_0.asset
+- Assets/editor default resources/images/avatars/avatar17_1.asset
+- Assets/editor default resources/images/avatars/avatar8.png
+- Assets/editor default resources/images/avatars/avatar4_0.asset
+- Assets/editor default resources/images/avatars/avatar10_1.asset
+- Assets/editor default resources/images/avatars/avatar6.png
+- Assets/editor default resources/images/avatars/avatar12.png
+- Assets/editor default resources/images/avatars/avatar19_0.asset
+- Assets/editor default resources/images/avatars/avatar16_1.asset
+- Assets/editor default resources/images/avatars/avatar7_0.asset
+- Assets/editor default resources/images/avatars/avatar9_1.asset
+- Assets/editor default resources/images/avatars/avatar5.png
+- Assets/editor default resources/images/avatars/avatar15_0.asset
+- Assets/editor default resources/images/avatars/avatar7_1.asset
+- Assets/editor default resources/images/avatars/avatar1.png
+- Assets/editor default resources/images/avatars/avatar3_0.asset
+- Assets/editor default resources/images/avatars/avatar20.png
+- Assets/editor default resources/images/avatars/avatar12_0.asset
+- Assets/editor default resources/images/avatars/avatar6_0.asset
+- Assets/editor default resources/images/avatars/avatar18_1.asset
+- Assets/editor default resources/images/avatars/avatar5_0.asset
+- Assets/editor default resources/images/avatars/avatar18.png
+- Assets/editor default resources/images/avatars/avatar14.png
+- Assets/editor default resources/images/avatars/avatar3.png
+- Assets/editor default resources/images/avatars/avatar3_1.asset
+- Assets/editor default resources/images/avatars/avatar17.png
+- Assets/editor default resources/images/avatars/avatar20_1.asset
+- Assets/editor default resources/images/avatars/avatar19_1.asset
+- Assets/editor default resources/images/avatars/avatar15_1.asset
+- Assets/editor default resources/images/avatars/avatar2.png
+- Assets/editor default resources/images/avatars/avatar13_0.asset
+- Assets/editor default resources/images/avatars/avatar12_1.asset
+- Assets/editor default resources/images/avatars/avatar7.png
+Dependencies: []

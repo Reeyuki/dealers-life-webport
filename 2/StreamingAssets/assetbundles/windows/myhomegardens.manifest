@@ -1,0 +1,37 @@
+ManifestFileVersion: 0
+CRC: 980790399
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 89971a3b8cfc8d878b5ff698a96dd962
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: c21d61fe394c58399df3c6fb5c7c99b3
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Editor Default Resources/Images/MyHome/Gardens/myhome_garden32.png
+- Assets/Editor Default Resources/Images/MyHome/Gardens/myhome_garden60.png
+- Assets/Editor Default Resources/Images/MyHome/Gardens/myhome_garden62.png
+- Assets/Editor Default Resources/Images/MyHome/Gardens/myhome_garden42.png
+- Assets/Editor Default Resources/Images/MyHome/Gardens/myhome_garden30.png
+- Assets/Editor Default Resources/Images/MyHome/Gardens/myhome_garden51.png
+- Assets/Editor Default Resources/Images/MyHome/Gardens/myhome_garden10.png
+- Assets/Editor Default Resources/Images/MyHome/Gardens/myhome_garden52.png
+- Assets/Editor Default Resources/Images/MyHome/Gardens/myhome_garden20.png
+- Assets/Editor Default Resources/Images/MyHome/Gardens/myhome_garden21.png
+- Assets/Editor Default Resources/Images/MyHome/Gardens/myhome_garden12.png
+- Assets/Editor Default Resources/Images/MyHome/Gardens/myhome_garden31.png
+- Assets/Editor Default Resources/Images/MyHome/Gardens/myhome_garden0.png
+- Assets/Editor Default Resources/Images/MyHome/Gardens/myhome_garden22.png
+- Assets/Editor Default Resources/Images/MyHome/Gardens/myhome_garden41.png
+- Assets/Editor Default Resources/Images/MyHome/Gardens/myhome_garden61.png
+- Assets/Editor Default Resources/Images/MyHome/Gardens/myhome_garden50.png
+- Assets/Editor Default Resources/Images/MyHome/Gardens/myhome_garden11.png
+- Assets/Editor Default Resources/Images/MyHome/Gardens/myhome_garden40.png
+Dependencies: []

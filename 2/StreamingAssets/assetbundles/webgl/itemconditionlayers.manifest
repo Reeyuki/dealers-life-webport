@@ -1,0 +1,26 @@
+ManifestFileVersion: 0
+CRC: 3730196148
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 348c8b622fed42c97b694a677c8433d7
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: c21d61fe394c58399df3c6fb5c7c99b3
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/editor default resources/images/itemconditionlayers/itemConditionLayer_terrible.png
+- Assets/editor default resources/images/itemconditionlayers/itemConditionLayer_v_good.asset
+- Assets/editor default resources/images/itemconditionlayers/itemConditionLayer_bad.asset
+- Assets/editor default resources/images/itemconditionlayers/itemConditionLayer_terrible.asset
+- Assets/editor default resources/images/itemconditionlayers/itemConditionLayer_bad.png
+- Assets/editor default resources/images/itemconditionlayers/itemConditionLayer_v_good.png
+- Assets/editor default resources/images/itemconditionlayers/itemConditionLayer_good.png
+- Assets/editor default resources/images/itemconditionlayers/itemConditionLayer_good.asset
+Dependencies: []

@@ -1,0 +1,22 @@
+ManifestFileVersion: 0
+CRC: 1318136813
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 73e005f6070b566942a859c08631d1f5
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: c21d61fe394c58399df3c6fb5c7c99b3
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Editor Default Resources/Images/EndGameBackgrounds/endGame_bg_win_days.png
+- Assets/Editor Default Resources/Images/EndGameBackgrounds/endGame_bg_lose.png
+- Assets/Editor Default Resources/Images/EndGameBackgrounds/endGame_bg_demo.png
+- Assets/Editor Default Resources/Images/EndGameBackgrounds/endGame_bg_win_cash.png
+Dependencies: []

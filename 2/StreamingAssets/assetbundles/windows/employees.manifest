@@ -1,0 +1,51 @@
+ManifestFileVersion: 0
+CRC: 438921608
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: df5ee84ffbc3f5bd22ef65a9b6b47bfc
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: c21d61fe394c58399df3c6fb5c7c99b3
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Editor Default Resources/Images/Employees/forger3.png
+- Assets/Editor Default Resources/Images/Employees/brainwasher1.png
+- Assets/Editor Default Resources/Images/Employees/brainwasher2.png
+- Assets/Editor Default Resources/Images/Employees/profiler2.png
+- Assets/Editor Default Resources/Images/Employees/restorer2.png
+- Assets/Editor Default Resources/Images/Employees/restorer3.png
+- Assets/Editor Default Resources/Images/Employees/profiler1.png
+- Assets/Editor Default Resources/Images/Employees/clerk3.png
+- Assets/Editor Default Resources/Images/Employees/clerk2.png
+- Assets/Editor Default Resources/Images/Employees/bouncer3.png
+- Assets/Editor Default Resources/Images/Employees/clerk1.png
+- Assets/Editor Default Resources/Images/Employees/treasure_hunter2.png
+- Assets/Editor Default Resources/Images/Employees/expert2.png
+- Assets/Editor Default Resources/Images/Employees/restorer1.png
+- Assets/Editor Default Resources/Images/Employees/forger1.png
+- Assets/Editor Default Resources/Images/Employees/treasure_hunter3.png
+- Assets/Editor Default Resources/Images/Employees/analyst1.png
+- Assets/Editor Default Resources/Images/Employees/advertiser1.png
+- Assets/Editor Default Resources/Images/Employees/bouncer2.png
+- Assets/Editor Default Resources/Images/Employees/lucky_guy1.png
+- Assets/Editor Default Resources/Images/Employees/advertiser3.png
+- Assets/Editor Default Resources/Images/Employees/brainwasher3.png
+- Assets/Editor Default Resources/Images/Employees/advertiser2.png
+- Assets/Editor Default Resources/Images/Employees/expert3.png
+- Assets/Editor Default Resources/Images/Employees/bouncer1.png
+- Assets/Editor Default Resources/Images/Employees/lucky_guy2.png
+- Assets/Editor Default Resources/Images/Employees/lucky_guy3.png
+- Assets/Editor Default Resources/Images/Employees/treasure_hunter1.png
+- Assets/Editor Default Resources/Images/Employees/analyst3.png
+- Assets/Editor Default Resources/Images/Employees/profiler3.png
+- Assets/Editor Default Resources/Images/Employees/analyst2.png
+- Assets/Editor Default Resources/Images/Employees/expert1.png
+- Assets/Editor Default Resources/Images/Employees/forger2.png
+Dependencies: []

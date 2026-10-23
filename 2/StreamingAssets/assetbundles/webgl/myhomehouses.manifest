@@ -1,0 +1,56 @@
+ManifestFileVersion: 0
+CRC: 3192621820
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 6e9c4e2da4a38d762ce5fed0bb6c225f
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: c21d61fe394c58399df3c6fb5c7c99b3
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/editor default resources/images/myhome/houses/myhome_house32.png
+- Assets/editor default resources/images/myhome/houses/myhome_house50.png
+- Assets/editor default resources/images/myhome/houses/myhome_house31.asset
+- Assets/editor default resources/images/myhome/houses/myhome_house52.png
+- Assets/editor default resources/images/myhome/houses/myhome_house30.asset
+- Assets/editor default resources/images/myhome/houses/myhome_house22.asset
+- Assets/editor default resources/images/myhome/houses/myhome_house32.asset
+- Assets/editor default resources/images/myhome/houses/myhome_house20.png
+- Assets/editor default resources/images/myhome/houses/myhome_house41.png
+- Assets/editor default resources/images/myhome/houses/myhome_house60.png
+- Assets/editor default resources/images/myhome/houses/myhome_house12.asset
+- Assets/editor default resources/images/myhome/houses/myhome_house60.asset
+- Assets/editor default resources/images/myhome/houses/myhome_house61.png
+- Assets/editor default resources/images/myhome/houses/myhome_house42.asset
+- Assets/editor default resources/images/myhome/houses/myhome_house0.png
+- Assets/editor default resources/images/myhome/houses/myhome_house41.asset
+- Assets/editor default resources/images/myhome/houses/myhome_house30.png
+- Assets/editor default resources/images/myhome/houses/myhome_house42.png
+- Assets/editor default resources/images/myhome/houses/myhome_house40.png
+- Assets/editor default resources/images/myhome/houses/myhome_house52.asset
+- Assets/editor default resources/images/myhome/houses/myhome_house31.png
+- Assets/editor default resources/images/myhome/houses/myhome_house62.asset
+- Assets/editor default resources/images/myhome/houses/myhome_house40.asset
+- Assets/editor default resources/images/myhome/houses/myhome_house61.asset
+- Assets/editor default resources/images/myhome/houses/myhome_house22.png
+- Assets/editor default resources/images/myhome/houses/myhome_house12.png
+- Assets/editor default resources/images/myhome/houses/myhome_house50.asset
+- Assets/editor default resources/images/myhome/houses/myhome_house10.asset
+- Assets/editor default resources/images/myhome/houses/myhome_house20.asset
+- Assets/editor default resources/images/myhome/houses/myhome_house51.asset
+- Assets/editor default resources/images/myhome/houses/myhome_house10.png
+- Assets/editor default resources/images/myhome/houses/myhome_house21.png
+- Assets/editor default resources/images/myhome/houses/myhome_house21.asset
+- Assets/editor default resources/images/myhome/houses/myhome_house62.png
+- Assets/editor default resources/images/myhome/houses/myhome_house0.asset
+- Assets/editor default resources/images/myhome/houses/myhome_house51.png
+- Assets/editor default resources/images/myhome/houses/myhome_house11.asset
+- Assets/editor default resources/images/myhome/houses/myhome_house11.png
+Dependencies: []

@@ -1,0 +1,27 @@
+ManifestFileVersion: 0
+CRC: 1617532441
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 861cf95e6e21e3a073ccd57860938cb1
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: cb3f6df5cbc4a2990c44c2787bc9553a
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+Assets:
+- Assets/Editor Default Resources/AssetBundlesResources/Money/MoneyTier10.png
+- Assets/Editor Default Resources/AssetBundlesResources/Money/MoneyTier7.png
+- Assets/Editor Default Resources/AssetBundlesResources/Money/MoneyTier9.png
+- Assets/Editor Default Resources/AssetBundlesResources/Money/MoneyTier1.png
+- Assets/Editor Default Resources/AssetBundlesResources/Money/MoneyTier6.png
+- Assets/Editor Default Resources/AssetBundlesResources/Money/MoneyTier2.png
+- Assets/Editor Default Resources/AssetBundlesResources/Money/MoneyTier5.png
+- Assets/Editor Default Resources/AssetBundlesResources/Money/MoneyTier3.png
+- Assets/Editor Default Resources/AssetBundlesResources/Money/MoneyTier8.png
+- Assets/Editor Default Resources/AssetBundlesResources/Money/MoneyTier4.png
+Dependencies: []

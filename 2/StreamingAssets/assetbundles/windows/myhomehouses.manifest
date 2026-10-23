@@ -1,0 +1,37 @@
+ManifestFileVersion: 0
+CRC: 745142681
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 726ec2ccbd1bc829888a540a6a661864
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: c21d61fe394c58399df3c6fb5c7c99b3
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Editor Default Resources/Images/MyHome/Houses/myhome_house50.png
+- Assets/Editor Default Resources/Images/MyHome/Houses/myhome_house10.png
+- Assets/Editor Default Resources/Images/MyHome/Houses/myhome_house21.png
+- Assets/Editor Default Resources/Images/MyHome/Houses/myhome_house31.png
+- Assets/Editor Default Resources/Images/MyHome/Houses/myhome_house32.png
+- Assets/Editor Default Resources/Images/MyHome/Houses/myhome_house12.png
+- Assets/Editor Default Resources/Images/MyHome/Houses/myhome_house61.png
+- Assets/Editor Default Resources/Images/MyHome/Houses/myhome_house52.png
+- Assets/Editor Default Resources/Images/MyHome/Houses/myhome_house60.png
+- Assets/Editor Default Resources/Images/MyHome/Houses/myhome_house20.png
+- Assets/Editor Default Resources/Images/MyHome/Houses/myhome_house11.png
+- Assets/Editor Default Resources/Images/MyHome/Houses/myhome_house40.png
+- Assets/Editor Default Resources/Images/MyHome/Houses/myhome_house41.png
+- Assets/Editor Default Resources/Images/MyHome/Houses/myhome_house30.png
+- Assets/Editor Default Resources/Images/MyHome/Houses/myhome_house62.png
+- Assets/Editor Default Resources/Images/MyHome/Houses/myhome_house51.png
+- Assets/Editor Default Resources/Images/MyHome/Houses/myhome_house42.png
+- Assets/Editor Default Resources/Images/MyHome/Houses/myhome_house22.png
+- Assets/Editor Default Resources/Images/MyHome/Houses/myhome_house0.png
+Dependencies: []

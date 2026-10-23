@@ -1,0 +1,37 @@
+ManifestFileVersion: 0
+CRC: 2338265405
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 7112c5d15e1c25797b9860490f399b39
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: c21d61fe394c58399df3c6fb5c7c99b3
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Editor Default Resources/Images/MyHome/Vehicles/myhome_vehicle61.png
+- Assets/Editor Default Resources/Images/MyHome/Vehicles/myhome_vehicle62.png
+- Assets/Editor Default Resources/Images/MyHome/Vehicles/myhome_vehicle0.png
+- Assets/Editor Default Resources/Images/MyHome/Vehicles/myhome_vehicle50.png
+- Assets/Editor Default Resources/Images/MyHome/Vehicles/myhome_vehicle51.png
+- Assets/Editor Default Resources/Images/MyHome/Vehicles/myhome_vehicle20.png
+- Assets/Editor Default Resources/Images/MyHome/Vehicles/myhome_vehicle31.png
+- Assets/Editor Default Resources/Images/MyHome/Vehicles/myhome_vehicle32.png
+- Assets/Editor Default Resources/Images/MyHome/Vehicles/myhome_vehicle30.png
+- Assets/Editor Default Resources/Images/MyHome/Vehicles/myhome_vehicle42.png
+- Assets/Editor Default Resources/Images/MyHome/Vehicles/myhome_vehicle10.png
+- Assets/Editor Default Resources/Images/MyHome/Vehicles/myhome_vehicle11.png
+- Assets/Editor Default Resources/Images/MyHome/Vehicles/myhome_vehicle60.png
+- Assets/Editor Default Resources/Images/MyHome/Vehicles/myhome_vehicle40.png
+- Assets/Editor Default Resources/Images/MyHome/Vehicles/myhome_vehicle12.png
+- Assets/Editor Default Resources/Images/MyHome/Vehicles/myhome_vehicle22.png
+- Assets/Editor Default Resources/Images/MyHome/Vehicles/myhome_vehicle41.png
+- Assets/Editor Default Resources/Images/MyHome/Vehicles/myhome_vehicle52.png
+- Assets/Editor Default Resources/Images/MyHome/Vehicles/myhome_vehicle21.png
+Dependencies: []

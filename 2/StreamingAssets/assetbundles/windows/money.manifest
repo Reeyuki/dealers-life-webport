@@ -1,0 +1,36 @@
+ManifestFileVersion: 0
+CRC: 2420459691
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 9132ae599e67206261cc1ee4e6cc60d6
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: c21d61fe394c58399df3c6fb5c7c99b3
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Editor Default Resources/Images/MoneyTiers/moneyTier3.png
+- Assets/Editor Default Resources/Images/MoneyTiers/moneyTier9.png
+- Assets/Editor Default Resources/Images/MoneyTiers/moneyTier12.png
+- Assets/Editor Default Resources/Images/MoneyTiers/moneyTier5.png
+- Assets/Editor Default Resources/Images/MoneyTiers/moneyTier17.png
+- Assets/Editor Default Resources/Images/MoneyTiers/moneyTier4.png
+- Assets/Editor Default Resources/Images/MoneyTiers/moneyTier6.png
+- Assets/Editor Default Resources/Images/MoneyTiers/moneyTier15.png
+- Assets/Editor Default Resources/Images/MoneyTiers/moneyTier8.png
+- Assets/Editor Default Resources/Images/MoneyTiers/moneyTier2.png
+- Assets/Editor Default Resources/Images/MoneyTiers/moneyTier14.png
+- Assets/Editor Default Resources/Images/MoneyTiers/moneyTier11.png
+- Assets/Editor Default Resources/Images/MoneyTiers/moneyTier10.png
+- Assets/Editor Default Resources/Images/MoneyTiers/moneyTier1.png
+- Assets/Editor Default Resources/Images/MoneyTiers/moneyTier16.png
+- Assets/Editor Default Resources/Images/MoneyTiers/moneyTier18.png
+- Assets/Editor Default Resources/Images/MoneyTiers/moneyTier7.png
+- Assets/Editor Default Resources/Images/MoneyTiers/moneyTier13.png
+Dependencies: []

@@ -1,0 +1,19 @@
+ManifestFileVersion: 0
+CRC: 912150178
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 89a3e639b14f06cdbf67b733505c9428
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: cb3f6df5cbc4a2990c44c2787bc9553a
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+Assets:
+- Assets/Editor Default Resources/AssetBundlesResources/HolidayContent/summerlights.png
+- Assets/Editor Default Resources/AssetBundlesResources/HolidayContent/summerholidaycontent.png
+Dependencies: []

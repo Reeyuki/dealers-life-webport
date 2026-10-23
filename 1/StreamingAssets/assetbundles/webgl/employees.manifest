@@ -1,0 +1,98 @@
+ManifestFileVersion: 0
+CRC: 489979204
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 9b41f4e26f799fa3655b47ce2a587637
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 9e6ad29cbd2df8fbe1a15315db0e51ab
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+Assets:
+- Assets/editor default resources/assetbundlesresources/employees/Restorer3_1.asset
+- Assets/editor default resources/assetbundlesresources/employees/Clerk1_0.asset
+- Assets/editor default resources/assetbundlesresources/employees/Forger2.png
+- Assets/editor default resources/assetbundlesresources/employees/Forger2_1.asset
+- Assets/editor default resources/assetbundlesresources/employees/Clerk1_1.asset
+- Assets/editor default resources/assetbundlesresources/employees/Expert3_1.asset
+- Assets/editor default resources/assetbundlesresources/employees/Forger3.png
+- Assets/editor default resources/assetbundlesresources/employees/Advertiser2.png
+- Assets/editor default resources/assetbundlesresources/employees/Advertiser1.png
+- Assets/editor default resources/assetbundlesresources/employees/Analyst2_1.asset
+- Assets/editor default resources/assetbundlesresources/employees/LuckyGuy2_1.asset
+- Assets/editor default resources/assetbundlesresources/employees/Forger1_0.asset
+- Assets/editor default resources/assetbundlesresources/employees/Brainwasher1_1.asset
+- Assets/editor default resources/assetbundlesresources/employees/Analyst1_1.asset
+- Assets/editor default resources/assetbundlesresources/employees/Profiler2_1.asset
+- Assets/editor default resources/assetbundlesresources/employees/Forger2_0.asset
+- Assets/editor default resources/assetbundlesresources/employees/LuckyGuy1_1.asset
+- Assets/editor default resources/assetbundlesresources/employees/Restorer1.png
+- Assets/editor default resources/assetbundlesresources/employees/Profiler3_1.asset
+- Assets/editor default resources/assetbundlesresources/employees/LuckyGuy3.png
+- Assets/editor default resources/assetbundlesresources/employees/Restorer1_0.asset
+- Assets/editor default resources/assetbundlesresources/employees/Advertiser3_1.asset
+- Assets/editor default resources/assetbundlesresources/employees/Analyst3.png
+- Assets/editor default resources/assetbundlesresources/employees/Profiler3.png
+- Assets/editor default resources/assetbundlesresources/employees/Advertiser3_0.asset
+- Assets/editor default resources/assetbundlesresources/employees/Clerk2_1.asset
+- Assets/editor default resources/assetbundlesresources/employees/Analyst3_0.asset
+- Assets/editor default resources/assetbundlesresources/employees/Analyst2.png
+- Assets/editor default resources/assetbundlesresources/employees/Advertiser2_0.asset
+- Assets/editor default resources/assetbundlesresources/employees/Clerk2.png
+- Assets/editor default resources/assetbundlesresources/employees/Advertiser2_1.asset
+- Assets/editor default resources/assetbundlesresources/employees/Brainwasher2.png
+- Assets/editor default resources/assetbundlesresources/employees/LuckyGuy1.png
+- Assets/editor default resources/assetbundlesresources/employees/Restorer2.png
+- Assets/editor default resources/assetbundlesresources/employees/Advertiser3.png
+- Assets/editor default resources/assetbundlesresources/employees/Brainwasher3_1.asset
+- Assets/editor default resources/assetbundlesresources/employees/Clerk3_0.asset
+- Assets/editor default resources/assetbundlesresources/employees/Profiler1_1.asset
+- Assets/editor default resources/assetbundlesresources/employees/Brainwasher2_0.asset
+- Assets/editor default resources/assetbundlesresources/employees/Forger3_0.asset
+- Assets/editor default resources/assetbundlesresources/employees/Analyst1_0.asset
+- Assets/editor default resources/assetbundlesresources/employees/Brainwasher1_0.asset
+- Assets/editor default resources/assetbundlesresources/employees/Profiler1_0.asset
+- Assets/editor default resources/assetbundlesresources/employees/Expert2_0.asset
+- Assets/editor default resources/assetbundlesresources/employees/Analyst2_0.asset
+- Assets/editor default resources/assetbundlesresources/employees/LuckyGuy1_0.asset
+- Assets/editor default resources/assetbundlesresources/employees/Expert3_0.asset
+- Assets/editor default resources/assetbundlesresources/employees/Brainwasher3_0.asset
+- Assets/editor default resources/assetbundlesresources/employees/Advertiser1_1.asset
+- Assets/editor default resources/assetbundlesresources/employees/Brainwasher3.png
+- Assets/editor default resources/assetbundlesresources/employees/Brainwasher1.png
+- Assets/editor default resources/assetbundlesresources/employees/Forger1_1.asset
+- Assets/editor default resources/assetbundlesresources/employees/Clerk3.png
+- Assets/editor default resources/assetbundlesresources/employees/Restorer2_1.asset
+- Assets/editor default resources/assetbundlesresources/employees/Analyst1.png
+- Assets/editor default resources/assetbundlesresources/employees/Expert3.png
+- Assets/editor default resources/assetbundlesresources/employees/Clerk3_1.asset
+- Assets/editor default resources/assetbundlesresources/employees/LuckyGuy3_0.asset
+- Assets/editor default resources/assetbundlesresources/employees/Profiler2_0.asset
+- Assets/editor default resources/assetbundlesresources/employees/Profiler2.png
+- Assets/editor default resources/assetbundlesresources/employees/Restorer1_1.asset
+- Assets/editor default resources/assetbundlesresources/employees/Expert1_0.asset
+- Assets/editor default resources/assetbundlesresources/employees/Forger1.png
+- Assets/editor default resources/assetbundlesresources/employees/Restorer3.png
+- Assets/editor default resources/assetbundlesresources/employees/LuckyGuy2.png
+- Assets/editor default resources/assetbundlesresources/employees/Forger3_1.asset
+- Assets/editor default resources/assetbundlesresources/employees/LuckyGuy2_0.asset
+- Assets/editor default resources/assetbundlesresources/employees/Restorer2_0.asset
+- Assets/editor default resources/assetbundlesresources/employees/Profiler3_0.asset
+- Assets/editor default resources/assetbundlesresources/employees/Clerk2_0.asset
+- Assets/editor default resources/assetbundlesresources/employees/Expert2_1.asset
+- Assets/editor default resources/assetbundlesresources/employees/Profiler1.png
+- Assets/editor default resources/assetbundlesresources/employees/Brainwasher2_1.asset
+- Assets/editor default resources/assetbundlesresources/employees/Expert1.png
+- Assets/editor default resources/assetbundlesresources/employees/Advertiser1_0.asset
+- Assets/editor default resources/assetbundlesresources/employees/LuckyGuy3_1.asset
+- Assets/editor default resources/assetbundlesresources/employees/Expert1_1.asset
+- Assets/editor default resources/assetbundlesresources/employees/Expert2.png
+- Assets/editor default resources/assetbundlesresources/employees/Restorer3_0.asset
+- Assets/editor default resources/assetbundlesresources/employees/Clerk1.png
+- Assets/editor default resources/assetbundlesresources/employees/Analyst3_1.asset
+Dependencies: []

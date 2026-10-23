@@ -1,0 +1,54 @@
+ManifestFileVersion: 0
+CRC: 3769649392
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 9ff5daca5cf6b20010a16dc159fadb9e
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: c21d61fe394c58399df3c6fb5c7c99b3
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/editor default resources/images/moneytiers/moneyTier18.asset
+- Assets/editor default resources/images/moneytiers/moneyTier5.png
+- Assets/editor default resources/images/moneytiers/moneyTier8.asset
+- Assets/editor default resources/images/moneytiers/moneyTier13.png
+- Assets/editor default resources/images/moneytiers/moneyTier10.png
+- Assets/editor default resources/images/moneytiers/moneyTier3.asset
+- Assets/editor default resources/images/moneytiers/moneyTier7.png
+- Assets/editor default resources/images/moneytiers/moneyTier6.png
+- Assets/editor default resources/images/moneytiers/moneyTier17.asset
+- Assets/editor default resources/images/moneytiers/moneyTier15.asset
+- Assets/editor default resources/images/moneytiers/moneyTier1.png
+- Assets/editor default resources/images/moneytiers/moneyTier2.png
+- Assets/editor default resources/images/moneytiers/moneyTier13.asset
+- Assets/editor default resources/images/moneytiers/moneyTier4.png
+- Assets/editor default resources/images/moneytiers/moneyTier5.asset
+- Assets/editor default resources/images/moneytiers/moneyTier2.asset
+- Assets/editor default resources/images/moneytiers/moneyTier16.png
+- Assets/editor default resources/images/moneytiers/moneyTier15.png
+- Assets/editor default resources/images/moneytiers/moneyTier16.asset
+- Assets/editor default resources/images/moneytiers/moneyTier9.asset
+- Assets/editor default resources/images/moneytiers/moneyTier1.asset
+- Assets/editor default resources/images/moneytiers/moneyTier11.asset
+- Assets/editor default resources/images/moneytiers/moneyTier17.png
+- Assets/editor default resources/images/moneytiers/moneyTier14.png
+- Assets/editor default resources/images/moneytiers/moneyTier18.png
+- Assets/editor default resources/images/moneytiers/moneyTier10.asset
+- Assets/editor default resources/images/moneytiers/moneyTier3.png
+- Assets/editor default resources/images/moneytiers/moneyTier12.png
+- Assets/editor default resources/images/moneytiers/moneyTier8.png
+- Assets/editor default resources/images/moneytiers/moneyTier4.asset
+- Assets/editor default resources/images/moneytiers/moneyTier9.png
+- Assets/editor default resources/images/moneytiers/moneyTier6.asset
+- Assets/editor default resources/images/moneytiers/moneyTier14.asset
+- Assets/editor default resources/images/moneytiers/moneyTier12.asset
+- Assets/editor default resources/images/moneytiers/moneyTier11.png
+- Assets/editor default resources/images/moneytiers/moneyTier7.asset
+Dependencies: []

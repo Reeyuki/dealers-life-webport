@@ -1,0 +1,25 @@
+ManifestFileVersion: 0
+CRC: 3681324540
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 1fa1b8fa3068d01a4b3d3583946af86d
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 9e6ad29cbd2df8fbe1a15315db0e51ab
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+Assets:
+- Assets/editor default resources/assetbundlesresources/holidaycontent/summerholidaycontent_0.asset
+- Assets/editor default resources/assetbundlesresources/holidaycontent/summerlights_0.asset
+- Assets/editor default resources/assetbundlesresources/holidaycontent/summerlights.png
+- Assets/editor default resources/assetbundlesresources/holidaycontent/summerholidaycontent_1.asset
+- Assets/editor default resources/assetbundlesresources/holidaycontent/summerlights_1.asset
+- Assets/editor default resources/assetbundlesresources/holidaycontent/summerholidaycontent_2.asset
+- Assets/editor default resources/assetbundlesresources/holidaycontent/summerholidaycontent.png
+- Assets/editor default resources/assetbundlesresources/holidaycontent/summerlights_2.asset
+Dependencies: []

@@ -1,0 +1,37 @@
+ManifestFileVersion: 0
+CRC: 273578117
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: c1b51f610ac4466053ee888c61322048
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: c21d61fe394c58399df3c6fb5c7c99b3
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Editor Default Resources/Images/MyHome/Backgrounds/myhome_background30.png
+- Assets/Editor Default Resources/Images/MyHome/Backgrounds/myhome_background60.png
+- Assets/Editor Default Resources/Images/MyHome/Backgrounds/myhome_background32.png
+- Assets/Editor Default Resources/Images/MyHome/Backgrounds/myhome_background20.png
+- Assets/Editor Default Resources/Images/MyHome/Backgrounds/myhome_background52.png
+- Assets/Editor Default Resources/Images/MyHome/Backgrounds/myhome_background12.png
+- Assets/Editor Default Resources/Images/MyHome/Backgrounds/myhome_background61.png
+- Assets/Editor Default Resources/Images/MyHome/Backgrounds/myhome_background0.png
+- Assets/Editor Default Resources/Images/MyHome/Backgrounds/myhome_background31.png
+- Assets/Editor Default Resources/Images/MyHome/Backgrounds/myhome_background21.png
+- Assets/Editor Default Resources/Images/MyHome/Backgrounds/myhome_background50.png
+- Assets/Editor Default Resources/Images/MyHome/Backgrounds/myhome_background40.png
+- Assets/Editor Default Resources/Images/MyHome/Backgrounds/myhome_background41.png
+- Assets/Editor Default Resources/Images/MyHome/Backgrounds/myhome_background51.png
+- Assets/Editor Default Resources/Images/MyHome/Backgrounds/myhome_background10.png
+- Assets/Editor Default Resources/Images/MyHome/Backgrounds/myhome_background11.png
+- Assets/Editor Default Resources/Images/MyHome/Backgrounds/myhome_background42.png
+- Assets/Editor Default Resources/Images/MyHome/Backgrounds/myhome_background22.png
+- Assets/Editor Default Resources/Images/MyHome/Backgrounds/myhome_background62.png
+Dependencies: []

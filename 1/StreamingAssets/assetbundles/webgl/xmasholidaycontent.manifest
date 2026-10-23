@@ -1,0 +1,25 @@
+ManifestFileVersion: 0
+CRC: 3785610837
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 2ee45b7817cea0d571580f0a9e03dbdf
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 9e6ad29cbd2df8fbe1a15315db0e51ab
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+Assets:
+- Assets/editor default resources/assetbundlesresources/holidaycontent/xmaslights_2.asset
+- Assets/editor default resources/assetbundlesresources/holidaycontent/xmasholidaycontent_1.asset
+- Assets/editor default resources/assetbundlesresources/holidaycontent/xmasholidaycontent_0.asset
+- Assets/editor default resources/assetbundlesresources/holidaycontent/xmaslights.png
+- Assets/editor default resources/assetbundlesresources/holidaycontent/xmasholidaycontent.png
+- Assets/editor default resources/assetbundlesresources/holidaycontent/xmaslights_1.asset
+- Assets/editor default resources/assetbundlesresources/holidaycontent/xmasholidaycontent_2.asset
+- Assets/editor default resources/assetbundlesresources/holidaycontent/xmaslights_0.asset
+Dependencies: []

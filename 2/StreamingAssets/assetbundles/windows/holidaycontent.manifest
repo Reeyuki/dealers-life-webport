@@ -1,0 +1,33 @@
+ManifestFileVersion: 0
+CRC: 2997888298
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 4d37b484a31a34ffe4881cc5aa19155e
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: c21d61fe394c58399df3c6fb5c7c99b3
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Editor Default Resources/Images/HolidayThemes/holidayTheme_patrick_shop.png
+- Assets/Editor Default Resources/Images/HolidayThemes/holidayTheme_patrick_window.png
+- Assets/Editor Default Resources/Images/HolidayThemes/holidayTheme_summer_window.png
+- Assets/Editor Default Resources/Images/HolidayThemes/holidayTheme_halloween_window.png
+- Assets/Editor Default Resources/Images/HolidayThemes/holidayTheme_lunar_menu.png
+- Assets/Editor Default Resources/Images/HolidayThemes/holidayTheme_xmas_menu.png
+- Assets/Editor Default Resources/Images/HolidayThemes/holidayTheme_lunar_window.png
+- Assets/Editor Default Resources/Images/HolidayThemes/holidayTheme_halloween_menu.png
+- Assets/Editor Default Resources/Images/HolidayThemes/holidayTheme_patrick_menu.png
+- Assets/Editor Default Resources/Images/HolidayThemes/holidayTheme_summer_shop.png
+- Assets/Editor Default Resources/Images/HolidayThemes/holidayTheme_summer_menu.png
+- Assets/Editor Default Resources/Images/HolidayThemes/holidayTheme_lunar_shop.png
+- Assets/Editor Default Resources/Images/HolidayThemes/holidayTheme_xmas_shop.png
+- Assets/Editor Default Resources/Images/HolidayThemes/holidayTheme_xmas_window.png
+- Assets/Editor Default Resources/Images/HolidayThemes/holidayTheme_halloween_shop.png
+Dependencies: []

@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, user-scalable=no, shrink-to-fit=yes">
+<title>DealersLife2</title>
+<style>
+  :root {
+    --bg: #0a0c10;
+    --panel: #12161d;
+    --line: #1f2630;
+    --text: #e7edf5;
+    --muted: #8b98a9;
+    --accent: #4f9cf9;
+    --accent-2: #6ee7c8;
+  }
+  * { box-sizing: border-box; }
+  html, body { width: 100%; height: 100%; margin: 0; padding: 0; overflow: hidden; background: var(--bg); }
+  body { font-family: system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; color: var(--text); }
+  #unity-canvas { position: fixed; inset: 0; width: 100%; height: 100%; display: block; background: var(--bg); outline: none; }
+  #fullscreen-button { position: fixed; top: 16px; right: 16px; z-index: 30; width: 44px; height: 44px; display: flex; align-items: center; justify-content: center; border: 1px solid var(--line); border-radius: 12px; background: rgba(18, 22, 29, 0.72); color: var(--text); cursor: pointer; backdrop-filter: blur(8px); opacity: 0; pointer-events: none; transition: opacity 0.25s ease, background 0.2s ease, border-color 0.2s ease; }
+  #fullscreen-button.visible { opacity: 1; pointer-events: auto; }
+  #fullscreen-button:hover { background: rgba(30, 37, 48, 0.92); border-color: #2c3644; }
+  #fullscreen-button:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+  #fullscreen-button svg { width: 20px; height: 20px; }
+  #loading-overlay { position: fixed; inset: 0; z-index: 20; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 22px; background: radial-gradient(1200px 800px at 50% 42%, #151b24 0%, #0a0c10 62%); transition: opacity 0.45s ease, visibility 0.45s ease; }
+  #loading-overlay.hidden { opacity: 0; visibility: hidden; }
+  #game-title { font-size: 26px; font-weight: 700; letter-spacing: 0.22em; text-transform: uppercase; text-align: center; }
+  #game-title span { color: var(--accent-2); }
+  #percentage { font-size: 52px; font-weight: 700; line-height: 1; font-variant-numeric: tabular-nums; background: linear-gradient(180deg, #f2f7ff, #8fb6ea); -webkit-background-clip: text; background-clip: text; color: transparent; }
+  #progress-track { width: min(420px, 72vw); height: 6px; border-radius: 999px; background: var(--panel); border: 1px solid var(--line); overflow: hidden; }
+  #progress-fill { width: 0%; height: 100%; border-radius: inherit; background: linear-gradient(90deg, var(--accent), var(--accent-2)); transition: width 0.2s ease; }
+  #status-text { min-height: 18px; font-size: 12px; font-weight: 600; letter-spacing: 0.16em; text-transform: uppercase; color: var(--muted); text-align: center; }
+  #warning-banner { position: fixed; top: 76px; left: 50%; transform: translateX(-50%); z-index: 40; display: none; width: min(680px, calc(100% - 32px)); }
+  #warning-banner div { margin-bottom: 8px; padding: 10px 14px; border-radius: 10px; font-size: 13px; line-height: 1.45; color: #fff; background: #24303f; border: 1px solid var(--line); }
+  #warning-banner div.error { background: #4a1d1d; border-color: #7a2e2e; }
+  #warning-banner div.warning { background: #453611; border-color: #735a1d; color: #ffe9b0; }
+</style>
+</head>
+<body>
+<canvas id="unity-canvas" width="960" height="600"></canvas>
+<button id="fullscreen-button" type="button" aria-label="Toggle fullscreen" title="Fullscreen">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+    <path d="M8 3H5a2 2 0 0 0-2 2v3"></path>
+    <path d="M16 3h3a2 2 0 0 1 2 2v3"></path>
+    <path d="M8 21H5a2 2 0 0 1-2-2v-3"></path>
+    <path d="M16 21h3a2 2 0 0 0 2-2v-3"></path>
+  </svg>
+</button>
+<div id="loading-overlay">
+  <div id="game-title">Dealers Life <span>2</span></div>
+  <div id="percentage">0%</div>
+  <div id="progress-track"><div id="progress-fill"></div></div>
+  <div id="status-text">Preparing assets</div>
+</div>
+<div id="warning-banner"></div>
+<script>
+  (function () {
+    const ASSET_BASE = "https://cdn.jsdelivr.net/gh/Reeyuki/dealers-life-webport@main/2";
+    const BUILD_DIR = ASSET_BASE + "/Build";
+    const CHUNK_FILES = [
+      { name: "dl2.data", count: 4, bytes: 62794950, type: "application/octet-stream" },
+      { name: "dl2.wasm", count: 2, bytes: 32994604, type: "application/wasm" }
+    ];
+    const TOTAL_BYTES = CHUNK_FILES.reduce(function (sum, file) { return sum + file.bytes; }, 0);
+    const DOWNLOAD_SHARE = 45;
+    const nativeFetch = window.fetch.bind(window);
+    const assetBlobs = Object.create(null);
+    const canvas = document.getElementById("unity-canvas");
+    const overlay = document.getElementById("loading-overlay");
+    const progressFill = document.getElementById("progress-fill");
+    const percentage = document.getElementById("percentage");
+    const statusText = document.getElementById("status-text");
+    const warningBanner = document.getElementById("warning-banner");
+    const fullscreenButton = document.getElementById("fullscreen-button");
+    let loadedBytes = 0;
+    let unityInstance = null;
+
+    function setProgress(value) {
+      const percent = Math.max(0, Math.min(100, value));
+      progressFill.style.width = percent + "%";
+      percentage.textContent = Math.round(percent) + "%";
+    }
+
+    function showBanner(message, type) {
+      const item = document.createElement("div");
+      if (type === "error") item.className = "error";
+      else if (type === "warning") item.className = "warning";
+      item.innerHTML = message;
+      warningBanner.appendChild(item);
+      warningBanner.style.display = "block";
+      if (type !== "error") {
+        setTimeout(function () {
+          if (item.parentNode) warningBanner.removeChild(item);
+          warningBanner.style.display = warningBanner.children.length ? "block" : "none";
+        }, 5000);
+      }
+    }
+
+    function assetUrl(name) {
+      return BUILD_DIR + "/" + name;
+    }
+
+    function chunkName(name, index) {
+      return name + String(index).padStart(2, "0");
+    }
+
+    function updateDownloadProgress() {
+      setProgress((loadedBytes / TOTAL_BYTES) * DOWNLOAD_SHARE);
+    }
+
+    function fetchChunk(url) {
+      return nativeFetch(url).then(function (response) {
+        if (!response.ok) {
+          throw new Error("Unable to load " + url + " (HTTP " + response.status + ")");
+        }
+        if (!response.body) {
+          return response.arrayBuffer().then(function (buffer) {
+            loadedBytes += buffer.byteLength;
+            updateDownloadProgress();
+            return buffer;
+          });
+        }
+        const reader = response.body.getReader();
+        const parts = [];
+        function pump() {
+          return reader.read().then(function (result) {
+            if (result.done) return parts;
+            parts.push(result.value);
+            loadedBytes += result.value.byteLength;
+            updateDownloadProgress();
+            return pump();
+          });
+        }
+        return pump().then(function (chunks) {
+          let length = 0;
+          for (const chunk of chunks) length += chunk.byteLength;
+          const merged = new Uint8Array(length);
+          let offset = 0;
+          for (const chunk of chunks) {
+            merged.set(chunk, offset);
+            offset += chunk.byteLength;
+          }
+          return merged.buffer;
+        });
+      });
+    }
+
+    function loadAssets() {
+      const jobs = [];
+      CHUNK_FILES.forEach(function (file) {
+        file.parts = new Array(file.count);
+        for (let index = 0; index < file.count; index++) {
+          const url = assetUrl(chunkName(file.name, index));
+          jobs.push(fetchChunk(url).then(function (buffer) {
+            file.parts[index] = buffer;
+          }));
+        }
+      });
+      return Promise.all(jobs).then(function () {
+        CHUNK_FILES.forEach(function (file) {
+          assetBlobs[new URL(assetUrl(file.name), location.href).href] = new Blob(file.parts, { type: file.type });
+        });
+        setProgress(DOWNLOAD_SHARE);
+        statusText.textContent = "Starting engine";
+      });
+    }
+
+    function findAssetBlob(url) {
+      if (!url) return null;
+      let absolute;
+      try {
+        absolute = new URL(String(url), location.href).href;
+      } catch (error) {
+        return null;
+      }
+      return assetBlobs[absolute] || null;
+    }
+
+    function patchFetch() {
+      window.fetch = function (input, init) {
+        const url = typeof input === "string" ? input : (input && input.url) || "";
+        const blob = findAssetBlob(url);
+        if (!blob) return nativeFetch(input, init);
+        if (init && init.method && String(init.method).toUpperCase() !== "GET") {
+          return nativeFetch(input, init);
+        }
+        return Promise.resolve(new Response(blob, {
+          status: 200,
+          statusText: "OK",
+          headers: {
+            "Content-Type": blob.type || "application/octet-stream",
+            "Content-Length": String(blob.size)
+          }
+        }));
+      };
+    }
+
+    function patchXhr() {
+      const nativeOpen = XMLHttpRequest.prototype.open;
+      const nativeSend = XMLHttpRequest.prototype.send;
+      XMLHttpRequest.prototype.open = function (method, url) {
+        this.__assetUrl = url;
+        return nativeOpen.apply(this, arguments);
+      };
+      XMLHttpRequest.prototype.send = function () {
+        const blob = findAssetBlob(this.__assetUrl);
+        if (!blob) return nativeSend.apply(this, arguments);
+        const xhr = this;
+        blob.arrayBuffer().then(function (buffer) {
+          let response;
+          if (xhr.responseType === "arraybuffer") response = buffer;
+          else if (xhr.responseType === "blob") response = blob;
+          else if (xhr.responseType === "json") {
+            try { response = JSON.parse(new TextDecoder().decode(buffer)); }
+            catch (error) { response = null; }
+          } else response = new TextDecoder().decode(buffer);
+          function define(name, value) {
+            Object.defineProperty(xhr, name, { value: value, configurable: true });
+          }
+          define("response", response);
+          define("responseText", typeof response === "string" ? response : "");
+          define("responseURL", new URL(xhr.__assetUrl, location.href).href);
+          define("status", 200);
+          define("statusText", "OK");
+          define("readyState", 4);
+          xhr.getResponseHeader = function (name) {
+            const key = String(name).toLowerCase();
+            if (key === "content-type") return blob.type || "application/octet-stream";
+            if (key === "content-length") return String(blob.size);
+            return null;
+          };
+          xhr.getAllResponseHeaders = function () {
+            return "content-type: " + (blob.type || "application/octet-stream") + "\r\ncontent-length: " + blob.size + "\r\n";
+          };
+          xhr.dispatchEvent(new Event("readystatechange"));
+          xhr.dispatchEvent(new ProgressEvent("progress", { lengthComputable: true, loaded: blob.size, total: blob.size }));
+          xhr.dispatchEvent(new ProgressEvent("load"));
+          xhr.dispatchEvent(new ProgressEvent("loadend"));
+        });
+      };
+    }
+
+    const loaderScript = document.createElement("script");
+    loaderScript.src = assetUrl("dl2.loader.js");
+    const loaderReady = new Promise(function (resolve, reject) {
+      loaderScript.onload = resolve;
+      loaderScript.onerror = function () {
+        reject(new Error("Unable to load the Unity loader from " + loaderScript.src));
+      };
+    });
+    document.body.appendChild(loaderScript);
+
+    const config = {
+      dataUrl: assetUrl("dl2.data"),
+      frameworkUrl: assetUrl("dl2.framework.js"),
+      codeUrl: assetUrl("dl2.wasm"),
+      streamingAssetsUrl: ASSET_BASE + "/StreamingAssets",
+      companyName: "Abyte Entertainment",
+      productName: "DealersLife2",
+      productVersion: "1.015",
+      showBanner: showBanner
+    };
+
+    fullscreenButton.addEventListener("click", function () {
+      if (unityInstance) unityInstance.SetFullscreen(1);
+    });
+
+    Promise.all([loadAssets(), loaderReady]).then(function () {
+      patchFetch();
+      patchXhr();
+      statusText.textContent = "Loading game";
+      return createUnityInstance(canvas, config, function (progress) {
+        setProgress(DOWNLOAD_SHARE + Math.max(0, Math.min(1, progress)) * (100 - DOWNLOAD_SHARE));
+      });
+    }).then(function (instance) {
+      unityInstance = instance;
+      setProgress(100);
+      overlay.classList.add("hidden");
+      fullscreenButton.classList.add("visible");
+    }).catch(function (error) {
+      console.error(error);
+      statusText.textContent = "Failed to load";
+      showBanner((error && error.message) || String(error), "error");
+    });
+  })();
+</script>
+</body>
+</html>

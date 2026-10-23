@@ -1,0 +1,38 @@
+ManifestFileVersion: 0
+CRC: 178568281
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 9b22a45dd315df959dd5cf8f936d0240
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: c21d61fe394c58399df3c6fb5c7c99b3
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Editor Default Resources/Images/Avatars/avatar8.png
+- Assets/Editor Default Resources/Images/Avatars/avatar4.png
+- Assets/Editor Default Resources/Images/Avatars/avatar3.png
+- Assets/Editor Default Resources/Images/Avatars/avatar15.png
+- Assets/Editor Default Resources/Images/Avatars/avatar10.png
+- Assets/Editor Default Resources/Images/Avatars/avatar14.png
+- Assets/Editor Default Resources/Images/Avatars/avatar2.png
+- Assets/Editor Default Resources/Images/Avatars/avatar16.png
+- Assets/Editor Default Resources/Images/Avatars/avatar18.png
+- Assets/Editor Default Resources/Images/Avatars/avatar9.png
+- Assets/Editor Default Resources/Images/Avatars/avatar12.png
+- Assets/Editor Default Resources/Images/Avatars/avatar6.png
+- Assets/Editor Default Resources/Images/Avatars/avatar1.png
+- Assets/Editor Default Resources/Images/Avatars/avatar11.png
+- Assets/Editor Default Resources/Images/Avatars/avatar17.png
+- Assets/Editor Default Resources/Images/Avatars/avatar19.png
+- Assets/Editor Default Resources/Images/Avatars/avatar5.png
+- Assets/Editor Default Resources/Images/Avatars/avatar7.png
+- Assets/Editor Default Resources/Images/Avatars/avatar13.png
+- Assets/Editor Default Resources/Images/Avatars/avatar20.png
+Dependencies: []
