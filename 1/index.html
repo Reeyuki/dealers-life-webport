@@ -125,7 +125,6 @@
       </div>
     </div>
 
-    <script src="Build/UnityLoader.js"></script>
     <script>
       (function () {
         "use strict";
@@ -133,6 +132,18 @@
         var ASSET_BASE = "https://cdn.jsdelivr.net/gh/Reeyuki/dealers-life-webport@main/1";
         var BUILD_DIR = ASSET_BASE + "/Build";
         var CONFIG_KEY = "Build/dl1.json";
+
+        // Load the loader from the CDN so the page works even when index.html is
+        // hosted without a local Build/ directory next to it.
+        var loaderScript = document.createElement("script");
+        loaderScript.src = BUILD_DIR + "/UnityLoader.js";
+        var loaderReady = new Promise(function (resolve, reject) {
+          loaderScript.onload = resolve;
+          loaderScript.onerror = function () {
+            reject(new Error("Unable to load the Unity loader from " + loaderScript.src));
+          };
+        });
+        document.body.appendChild(loaderScript);
 
         var ASSETS = [
           { key: "data", name: "dl1.data", file: "dl1.data.unityweb", count: 3, size: 29928111, mime: "application/octet-stream" },
@@ -376,7 +387,10 @@
         });
 
         paint();
-        Promise.all(ASSETS.map(loadAsset)).then(startGame).catch(fail);
+        Promise.all(ASSETS.map(loadAsset))
+          .then(function () { return loaderReady; })
+          .then(startGame)
+          .catch(fail);
       })();
     </script>
   </body>
