@@ -131,6 +131,7 @@
         "use strict";
 
         var ASSET_BASE = "https://cdn.jsdelivr.net/gh/Reeyuki/dealers-life-webport@main/1";
+        var BUILD_DIR = ASSET_BASE + "/Build";
         var CONFIG_KEY = "Build/dl1.json";
 
         var ASSETS = [
@@ -141,10 +142,10 @@
         var assets = {};
         ASSETS.forEach(function (asset) {
           assets[asset.key] = asset;
-          asset.url = ASSET_BASE + "/" + asset.file;
+          asset.url = BUILD_DIR + "/" + asset.file;
           asset.chunks = [];
           for (var i = 0; i < asset.count; i++) {
-            asset.chunks.push(ASSET_BASE + "/" + asset.name + (i < 10 ? "0" + i : String(i)));
+            asset.chunks.push(BUILD_DIR + "/" + asset.name + (i < 10 ? "0" + i : String(i)));
           }
         });
 
@@ -154,7 +155,7 @@
           productVersion: "1.26",
           dataUrl: assets.data.url,
           wasmCodeUrl: assets.wasm.url,
-          wasmFrameworkUrl: new URL("Build/dl1.wasm.framework.unityweb", document.baseURI).href,
+          wasmFrameworkUrl: BUILD_DIR + "/dl1.wasm.framework.unityweb",
           graphicsAPI: ["WebGL 2.0", "WebGL 1.0"],
           webglContextAttributes: { preserveDrawingBuffer: false },
           splashScreenStyle: "Dark",
@@ -352,6 +353,11 @@
           phase = "engine";
           paint();
           unityInstance = UnityLoader.instantiate("unityContainer", CONFIG_KEY, {
+            Module: {
+              // The 2019 loader resolves StreamingAssets relative to the page URL,
+              // which breaks when index.html is hosted apart from the build files.
+              streamingAssetsUrl: function () { return ASSET_BASE + "/StreamingAssets"; }
+            },
             onProgress: function (instance, progress) {
               unityInstance = instance;
               engineProgress = progress;

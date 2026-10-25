@@ -58,6 +58,9 @@
   (function () {
     const ASSET_BASE = "https://cdn.jsdelivr.net/gh/Reeyuki/dealers-life-webport@main/2";
     const BUILD_DIR = ASSET_BASE + "/Build";
+    // jsDelivr refuses files over 20 MB (403), and this build has streaming assets
+    // well above that (items, customers, data.unity3d), so serve them from GitHub raw.
+    const STREAMING_ASSETS_BASE = "https://raw.githubusercontent.com/Reeyuki/dealers-life-webport/main/2/StreamingAssets";
     const CHUNK_FILES = [
       { name: "dl2.data", count: 4, bytes: 62794950, type: "application/octet-stream" },
       { name: "dl2.wasm", count: 2, bytes: 32994604, type: "application/wasm" }
@@ -255,7 +258,7 @@
       dataUrl: assetUrl("dl2.data"),
       frameworkUrl: assetUrl("dl2.framework.js"),
       codeUrl: assetUrl("dl2.wasm"),
-      streamingAssetsUrl: ASSET_BASE + "/StreamingAssets",
+      streamingAssetsUrl: STREAMING_ASSETS_BASE,
       companyName: "Abyte Entertainment",
       productName: "DealersLife2",
       productVersion: "1.015",
