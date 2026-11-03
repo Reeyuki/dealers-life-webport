@@ -1,3 +1,4 @@
+alert("Port by https://yukios.pages.dev")
 function createUnityInstance(canvas, config, onProgress) {
   onProgress = onProgress || function () {};
 
